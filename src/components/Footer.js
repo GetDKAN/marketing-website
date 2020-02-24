@@ -3,12 +3,18 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 import useSiteMetadata from '../hooks/use-site-config'
 import { colors } from '../tokens'
+import logo from '../../content/images/dkan-white.png'
+import bg from '../../content/images/bg.png'
 
 const FooterWrapper = styled.footer`
   text-align: left;
   padding-top: 30px;
   padding-bottom: 50px;
   background-color: ${colors.primary};
+  background-image: url(${bg});
+  background-position: right bottom;
+  background-repeat: no-repeat;
+
   color: ${colors.textLightest};
   padding-left: 20px;
   padding-right: 20px;
@@ -26,7 +32,6 @@ const FooterWrapper = styled.footer`
       display: inline-flex;
       flex-direction: column;
       margin-bottom: 1em;
-      padding-right: 1em;
     }
   }
 
@@ -68,9 +73,35 @@ const FooterWrapper = styled.footer`
     padding: 0.25rem;
   }
 
+  img.footer-logo {
+    height: auto;
+    width: 150px;
+  }
+  .footer-col .icons {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    i.fa {
+        font-size: 2rem;
+        margin: 0 20px 0 0;
+    }
+  }
+
   @media (max-width: 564px) {
     .footer-col:first-child {
       width: 100%;
+      .icons {
+        flex-wrap: wrap;
+        a {
+          width: 20%;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        i.fa {
+          margin-right: 0;
+        }
+      }
     }
   }
 `
@@ -100,9 +131,6 @@ const Footer = () => {
   const FooterColumn = ({ column }) => {
     return (
       <div className="footer-col">
-        <h5 className="footer-title" key={column.sectionName}>
-          {column.sectionName}
-        </h5>
         {column.links.map((item, i) => {
           return <FooterItem item={item} key={`footer-column-item-${i}`} />
         })}
@@ -114,41 +142,26 @@ const Footer = () => {
     <FooterWrapper>
       <nav>
         <div className="footer-col">
+          <img src={logo} alt="DKAN logo" className="footer-logo" />
+          <div className="icons">
+            <a href="http://eepurl.com/c01YS1"><i className="fa fa-envelope" aria-hidden="true"></i></a> 
+            <a href="https://medium.com/dkan-blog"><i className="fa fa-medium" aria-hidden="true"></i></a> 
+            <a href="https://getdkan.org/community"><i className="fa fa-slack" aria-hidden="true"></i></a> 
+            <a href="https://twitter.com/getdkan"><i className="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/GetDKAN/"><i className="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/company/dkan/"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/getdkan"><i className="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/channel/UCl7qFUCkyh32lss4EjQEUXg"><i className="fa fa-youtube" aria-hidden="true"></i></a>
+            <a href="https://www.drupal.org/project/dkan"><i className="fa fa-drupal" aria-hidden="true"></i></a>
+            <a href="https://www.eventbrite.com/o/dkan-14793986036"><i className="fa fa-ticket" aria-hidden="true"></i></a>
+          </div>
           <h5 className="footer-title">
             {authorName} © {new Date().getFullYear()}
           </h5>
-          <p className="footer-item-text">
-            Built with{' '}
-            <a className="footer-link" href="https://www.gatsbyjs.org">
-              Gatsby
-            </a>
-            .
-          </p>
-          <p className="footer-item-text">
-            Theme using{' '}
-            <a
-              className="footer-link"
-              href="https://github.com/maxpou/gatsby-starter-morning-dew"
-            >
-              gatsby-starter-morning-dew
-            </a>
-            .
-          </p>
-          <p className="footer-item-text">
-            Hosted with{' '}
-            <span className="footer-heart" role="img" aria-label="Love">
-              ❤
-            </span>{' '}
-            by{' '}
-            <a className="footer-link" href={websiteHost.url}>
-              {websiteHost.name}
-            </a>
-            .
-          </p>
         </div>
-        {footerLinks.map((column, i) => {
+        {/* {footerLinks.map((column, i) => {
           return <FooterColumn column={column} key={`footer-column-${i}`} />
-        })}
+        })} */}
       </nav>
     </FooterWrapper>
   )

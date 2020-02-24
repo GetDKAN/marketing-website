@@ -1,42 +1,43 @@
 module.exports = {
-  siteTitle: 'gatsby-starter-morning-dew',
-  siteDescription: 'A Gatsby theme/starter to build lightning-fast websites',
-  authorName: 'Maxence Poutord',
-  twitterUsername: '_maxpou',
-  authorAvatar: 'avatar.jpeg', // file in content/images
+  siteTitle: 'DKAN Open Data Platform',
+  siteDescription: 'DKAN is a community-driven, free and open source open data platform that gives organizations and individuals ultimate freedom to publish and consume structured information.',
+  authorName: 'CivicAcations',
+  twitterUsername: 'getdkan',
+  authorAvatar: 'dkan-avatar-blue.png', // file in content/images
   defaultLang: 'en', // show flag if lang is not default. Leave empty to enable flags in post lists
   authorDescription: `
-  For the last decade, Maxence Poutord has worked with a variety of web technologies. He is currently focused on front-end development.
-  On his day to day job, he is working as a senior front-end engineer at VSware. He is also an occasional tech speaker and a mentor.
-  As a digital nomad, he is living where the WiFi and sun are 😎 <br>
-  Do you want to know more? <a href="https://www.maxpou.fr/about" target="_blank">Visit my website!</a>
+  We help agencies improve lives through modern software and thoughtful experiences.
   `,
-  siteUrl: 'https://maxpou.github.io/',
-  disqusSiteUrl: 'https://www.maxpou.fr/',
+  siteUrl: 'http://getkdkan.com/',
+  disqusSiteUrl: '',
   // Prefixes all links. For cases when deployed to maxpou.fr/gatsby-starter-morning-dew/
-  pathPrefix: '/gatsby-starter-morning-dew', // Note: it must *not* have a trailing slash.
-  siteCover: 'cover-baymax.jpeg', // file in content/images
+  pathPrefix: '/example', // Note: it must *not* have a trailing slash.
+  siteCover: 'bg.png', // file in content/images
   googleAnalyticsId: 'UA-67868977-1',
   background_color: '#ffffff',
   theme_color: '#222222',
   display: 'standalone',
-  icon: 'content/images/baymax.png',
+  icon: 'content/images/dkan-avatar-blue.png',
   postsPerPage: 6,
-  disqusShortname: 'maxpou',
-  headerTitle: 'gatsby-starter-morning-dew',
-  headerLinksIcon: 'baymax.png', //  (leave empty to disable: '')
+  disqusShortname: '',
+  headerTitle: '',
+  headerLinksIcon: 'dkan-white.png', //  (leave empty to disable: '')
   headerLinks: [
     {
-      label: 'Blog',
-      url: '/',
-    },
-    {
       label: 'About',
-      url: '/about-gatsby-starter-morning-dew',
+      url: '/about',
     },
     {
-      label: 'Installation',
-      url: '/how-to-install',
+      label: 'Community',
+      url: '/community',
+    },
+    {
+      label: 'Events',
+      url: '/events',
+    },
+    {
+      label: 'Resources',
+      url: '/resources',
     },
   ],
   // Footer information (ex: Github, Netlify...)
@@ -46,36 +47,34 @@ module.exports = {
   },
   footerLinks: [
     {
-      sectionName: 'Explore',
       links: [
         {
           label: 'Blog',
-          url: '/',
+          url: 'https://medium.com/dkan-blog',
         },
         {
-          label: 'About',
-          url: '/about-gatsby-starter-morning-dew',
+          label: 'Visit Demo',
+          url: 'http://getdkan.com',
         },
         {
-          label: 'Installation',
-          url: '/how-to-install',
+          label: 'Documentation',
+          url: 'http://dkan.readthedocs.io/en/latest/',
         },
       ],
     },
     {
-      sectionName: 'Follow the author',
       links: [
         {
           label: 'GitHub',
-          url: 'https://github.com/maxpou/gatsby-starter-morning-dew',
+          url: 'https://github.com/getdkan/dkan',
         },
         {
-          label: 'Website',
-          url: 'https://www.maxpou.fr',
+          label: 'Slack',
+          url: 'https://dkan.slack.com/',
         },
         {
           label: 'Twitter',
-          url: 'https://twitter.com/_maxpou',
+          url: 'https://twitter.com/getdkan',
         },
       ],
     },

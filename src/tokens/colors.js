@@ -22,7 +22,7 @@ export default {
   textLightest: colors.white,
   textLightestHover: colors.grey200,
   textLight: '#57595d',
-  primary: colors.grey500,
+  primary: '#0077C0',
   primaryAlpha: `rgba(32, 35, 42, 0.85)`,
   text: colors.grey500,
   background: '#f4f8fb',

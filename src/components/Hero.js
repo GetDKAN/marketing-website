@@ -10,9 +10,9 @@ const HeroContainer = styled.div`
   width: 100%;
   height: 400px;
   overflow: hidden;
+  background-color: #0077C0;
+  background-position: right bottom;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 `
 
 const TitleContainer = styled.div`
@@ -24,16 +24,34 @@ const TitleContainer = styled.div`
 
 const HeroTitle = styled.h1`
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 10px 50px;
   color: ${colors.white};
-  text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.85);
+  text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.25);
+  @media screen and (max-width: 768px) {
+    font-size: 2.5rem;
+  }
 `
 
 const HeroSubTitle = styled.h2`
-  margin: 10px 50px;
+  margin: 10px auto 20px;
   color: ${colors.white};
-  text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.85);
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.25);
+  max-width: 80%;
+  @media screen and (max-width: 768px) {
+    max-width: 90%;
+  }
+`
+
+const HorizontalRule = styled.hr`
+  border-top: 1px solid #fff;
+  margin: 20px auto;
+  max-width: 30%;
+  @media screen and (max-width: 768px) {
+    max-width: 50%;
+  }
 `
 
 const Hero = props => {
@@ -45,6 +63,7 @@ const Hero = props => {
     <HeroContainer style={{ backgroundImage: `url("${heroImg}")` }}>
       <TitleContainer>
         <HeroTitle>{props.title}</HeroTitle>
+        <HorizontalRule />
         {props.subTitle && <HeroSubTitle>{props.subTitle}</HeroSubTitle>}
       </TitleContainer>
     </HeroContainer>

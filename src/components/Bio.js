@@ -4,6 +4,7 @@ import { Text } from './Commons'
 import useSiteMetadata from '../hooks/use-site-config'
 import useSiteImages from '../hooks/use-site-images'
 import { colors } from '../tokens'
+import team from '../../data/team.json'
 
 const BioWrapper = styled.div`
   & .author-image {
@@ -61,19 +62,28 @@ const Bio = () => {
   const { authorAvatar, authorName, authorDescription } = useSiteMetadata()
   const { fixed } = useSiteImages(authorAvatar)
 
+  const member = team.map(x => {
+    let member = {
+      name: name,
+
+    };
+    return member;
+  });
+
   return (
     <BioWrapper>
-      <figure className="author-image">
+      hello
+      {/* <figure className="author-image">
         <div
-          alt={authorName}
-          style={{ backgroundImage: `url("${fixed.src}")` }}
+          alt={name}
+          style={{ backgroundImage: `url("${image}")` }}
           className="img"
         />
       </figure>
       <section>
         <h4>About the author</h4>
         <BioText dangerouslySetInnerHTML={{ __html: authorDescription }} />
-      </section>
+      </section> */}
     </BioWrapper>
   )
 }

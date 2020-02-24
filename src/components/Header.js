@@ -14,7 +14,7 @@ const HeaderWrapper = styled.header`
   display: block;
   width: 100%;
   z-index: 1000;
-  background-color: ${colors.primaryAlpha};
+  background-color: ${colors.primary};
   font-weight: 700;
 
   @media ${media.medium} {
@@ -29,7 +29,7 @@ const HeaderNav = styled.nav`
   height: 60px;
   display: flex;
   flex-direction: row;
-  max-width: 770px;
+  max-width: 940px;
   z-index: 1000;
   justify-content: space-between;
   overflow-x: auto;
@@ -60,6 +60,9 @@ const HeaderLink = styled(Link)`
   z-index: 10;
   & + & {
     margin-left: 0.7rem;
+  }
+  img {
+    max-height: 35px;
   }
 `
 

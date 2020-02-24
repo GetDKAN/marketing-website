@@ -27,7 +27,6 @@ const useSiteMetadata = () => {
             url
           }
           footerLinks {
-            sectionName
             links {
               label
               url
