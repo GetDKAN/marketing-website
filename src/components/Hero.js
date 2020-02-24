@@ -10,7 +10,7 @@ const HeroContainer = styled.div`
   width: 100%;
   height: 400px;
   overflow: hidden;
-  background-color: #0077C0;
+  background-color: #0077c0;
   background-position: right bottom;
   background-repeat: no-repeat;
 `

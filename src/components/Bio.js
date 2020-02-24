@@ -59,16 +59,15 @@ const BioText = styled(Text)`
 `
 
 const Bio = () => {
-  const { authorAvatar, authorName, authorDescription } = useSiteMetadata()
+  const { authorAvatar, authorName, authorDescription, name } = useSiteMetadata()
   const { fixed } = useSiteImages(authorAvatar)
 
   const member = team.map(x => {
     let member = {
       name: name,
-
-    };
-    return member;
-  });
+    }
+    return member
+  })
 
   return (
     <BioWrapper>

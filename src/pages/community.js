@@ -21,7 +21,8 @@ const TableWrapper = styled.div`
     background: #898989;
     color: white;
   }
-  th, td {
+  th,
+  td {
     text-align: left;
     padding: 4px;
     border-bottom: 1px solid #ddd;
@@ -31,23 +32,27 @@ const TableWrapper = styled.div`
 
 const Community = props => {
   const groupBy = key => array =>
-  array.reduce((objectsByKeyValue, obj) => {
-    const value = obj[key];
-    objectsByKeyValue[value] = (objectsByKeyValue[value] || []).concat(obj);
-    return objectsByKeyValue;
-  }, {});
+    array.reduce((objectsByKeyValue, obj) => {
+      const value = obj[key]
+      objectsByKeyValue[value] = (objectsByKeyValue[value] || []).concat(obj)
+      return objectsByKeyValue
+    }, {})
 
-  const groupByRegion = groupBy('region');
-  const region = groupByRegion(sites);
-  console.log(sites);
+  const groupByRegion = groupBy('region')
+  const region = groupByRegion(sites)
+  console.log(sites)
 
   return (
-    <Layout location={props.location} >
+    <Layout location={props.location}>
       <SEO title="Community" />
       <Wrapper>
         <h1>Community</h1>
         <Text>
-          A partial list of DKAN sites around the world. <a href="https://github.com/GetDKAN/dkan/issues/new">Submit an issue</a> to add your site to the list.
+          A partial list of DKAN sites around the world.{' '}
+          <a href="https://github.com/GetDKAN/dkan/issues/new">
+            Submit an issue
+          </a>{' '}
+          to add your site to the list.
         </Text>
 
         <TableWrapper>
@@ -55,7 +60,10 @@ const Community = props => {
         </TableWrapper>
 
         <TableWrapper>
-          <SitesTable data={region['United States of America']} heading="United States of America" />
+          <SitesTable
+            data={region['United States of America']}
+            heading="United States of America"
+          />
         </TableWrapper>
 
         <TableWrapper>
@@ -63,7 +71,10 @@ const Community = props => {
         </TableWrapper>
 
         <TableWrapper>
-          <SitesTable data={region['Asia & Oceania']} heading="Asia and Oceania" />
+          <SitesTable
+            data={region['Asia & Oceania']}
+            heading="Asia and Oceania"
+          />
         </TableWrapper>
 
         <TableWrapper>
@@ -73,7 +84,6 @@ const Community = props => {
         <TableWrapper>
           <SitesTable data={region['Europe']} heading="Europe" />
         </TableWrapper>
-
       </Wrapper>
     </Layout>
   )

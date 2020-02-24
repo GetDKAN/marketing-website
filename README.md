@@ -10,7 +10,7 @@ The official website for DKAN: [getdkan.org](http://getdkan.com)
 # working locally
 npm run dev
 
-# generate build
+# generate build (Add --prefix-paths if you are using path prefix!)
 npm run build
 
 # format code
@@ -23,25 +23,21 @@ npm run lint
 npm run generatePostPreviewImages
 ```
 
-**:warning: Add `--prefix-paths` if you are using path prefix!**
-
 ## Configure
 
 ```bash
-data
- |
-  - siteConfig.js
-  - sites.js
-  - team.json
+ ├── data
+     ├── siteConfig.js
+     ├── sites.json
+     ├── team.json
 ```
 
 ## Content
 
 ```bash
-content
- |
-  - images
-  - pages
+├── content
+    ├── images
+    ├── pages
 ```
 
 ## Deploy

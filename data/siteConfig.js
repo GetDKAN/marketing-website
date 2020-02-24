@@ -1,6 +1,7 @@
 module.exports = {
   siteTitle: 'DKAN Open Data Platform',
-  siteDescription: 'DKAN is a community-driven, free and open source open data platform that gives organizations and individuals ultimate freedom to publish and consume structured information.',
+  siteDescription:
+    'DKAN is a community-driven, free and open source open data platform that gives organizations and individuals ultimate freedom to publish and consume structured information.',
   authorName: 'CivicAcations',
   twitterUsername: 'getdkan',
   authorAvatar: 'dkan-avatar-blue.png', // file in content/images

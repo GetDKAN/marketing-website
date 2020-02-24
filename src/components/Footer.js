@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 import styled from 'styled-components'
 import useSiteMetadata from '../hooks/use-site-config'
 import { colors } from '../tokens'
@@ -107,36 +107,36 @@ const FooterWrapper = styled.footer`
 `
 
 const Footer = () => {
-  const { authorName, websiteHost, footerLinks } = useSiteMetadata()
+  const { authorName } = useSiteMetadata()
 
-  const FooterItem = ({ item }) => {
-    if (item.url.startsWith('/')) {
-      return (
-        <span className="footer-item">
-          <Link className="footer-link" to={item.url}>
-            {item.label}
-          </Link>
-        </span>
-      )
-    }
-    return (
-      <span className="footer-item">
-        <a className="footer-link" href={item.url}>
-          {item.label}
-        </a>
-      </span>
-    )
-  }
+  // const FooterItem = ({ item }) => {
+  //   if (item.url.startsWith('/')) {
+  //     return (
+  //       <span className="footer-item">
+  //         <Link className="footer-link" to={item.url}>
+  //           {item.label}
+  //         </Link>
+  //       </span>
+  //     )
+  //   }
+  //   return (
+  //     <span className="footer-item">
+  //       <a className="footer-link" href={item.url}>
+  //         {item.label}
+  //       </a>
+  //     </span>
+  //   )
+  // }
 
-  const FooterColumn = ({ column }) => {
-    return (
-      <div className="footer-col">
-        {column.links.map((item, i) => {
-          return <FooterItem item={item} key={`footer-column-item-${i}`} />
-        })}
-      </div>
-    )
-  }
+  // const FooterColumn = ({ column }) => {
+  //   return (
+  //     <div className="footer-col">
+  //       {column.links.map((item, i) => {
+  //         return <FooterItem item={item} key={`footer-column-item-${i}`} />
+  //       })}
+  //     </div>
+  //   )
+  // }
 
   return (
     <FooterWrapper>
@@ -144,16 +144,36 @@ const Footer = () => {
         <div className="footer-col">
           <img src={logo} alt="DKAN logo" className="footer-logo" />
           <div className="icons">
-            <a href="http://eepurl.com/c01YS1"><i className="fa fa-envelope" aria-hidden="true"></i></a> 
-            <a href="https://medium.com/dkan-blog"><i className="fa fa-medium" aria-hidden="true"></i></a> 
-            <a href="https://getdkan.org/community"><i className="fa fa-slack" aria-hidden="true"></i></a> 
-            <a href="https://twitter.com/getdkan"><i className="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://www.facebook.com/GetDKAN/"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/company/dkan/"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a href="https://github.com/getdkan"><i className="fa fa-github" aria-hidden="true"></i></a>
-            <a href="https://www.youtube.com/channel/UCl7qFUCkyh32lss4EjQEUXg"><i className="fa fa-youtube" aria-hidden="true"></i></a>
-            <a href="https://www.drupal.org/project/dkan"><i className="fa fa-drupal" aria-hidden="true"></i></a>
-            <a href="https://www.eventbrite.com/o/dkan-14793986036"><i className="fa fa-ticket" aria-hidden="true"></i></a>
+            <a href="http://eepurl.com/c01YS1">
+              <i className="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+            <a href="https://medium.com/dkan-blog">
+              <i className="fa fa-medium" aria-hidden="true"></i>
+            </a>
+            <a href="https://getdkan.org/community">
+              <i className="fa fa-slack" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/getdkan">
+              <i className="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com/GetDKAN/">
+              <i className="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/dkan/">
+              <i className="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/getdkan">
+              <i className="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCl7qFUCkyh32lss4EjQEUXg">
+              <i className="fa fa-youtube" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.drupal.org/project/dkan">
+              <i className="fa fa-drupal" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.eventbrite.com/o/dkan-14793986036">
+              <i className="fa fa-ticket" aria-hidden="true"></i>
+            </a>
           </div>
           <h5 className="footer-title">
             {authorName} © {new Date().getFullYear()}

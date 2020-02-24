@@ -6,7 +6,7 @@ import Content from '../components/Content'
 import Wrapper from '../components/Wrapper'
 import Hero from '../components/Hero'
 import SEO from '../components/SEO'
-import '../css/style.css';
+import '../css/style.css'
 
 export default props => {
   const page = props.data.page
@@ -31,7 +31,6 @@ export default props => {
           <Content content={page.body} date={page.frontmatter.date} />
         </article>
       </Wrapper>
-
     </Layout>
   )
 }
