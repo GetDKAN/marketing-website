@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import useSiteMetadata from '../hooks/use-site-config'
 import useSiteImages from '../hooks/use-site-images'
-import { colors } from '../tokens'
+import { colors, media } from '../tokens'
 
 const HeroContainer = styled.div`
   position: relative;
@@ -13,6 +13,9 @@ const HeroContainer = styled.div`
   background-color: #0077c0;
   background-position: right bottom;
   background-repeat: no-repeat;
+  @media screen and (max-width: 768px) {
+    background-size: contain;
+  }
 `
 
 const TitleContainer = styled.div`
@@ -39,18 +42,19 @@ const HeroSubTitle = styled.h2`
   font-weight: 400;
   font-size: 1.8rem;
   text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.25);
-  max-width: 80%;
-  @media screen and (max-width: 768px) {
-    max-width: 90%;
+  max-width: 90%;
+  @media ${media.large} { 
+    max-width: 800px;
   }
 `
 
 const HorizontalRule = styled.hr`
   border-top: 1px solid #fff;
   margin: 20px auto;
-  max-width: 30%;
-  @media screen and (max-width: 768px) {
-    max-width: 50%;
+  max-width: 50%;
+  opacity: .5;
+  @media ${media.large} {
+    max-width: 30%;
   }
 `
 

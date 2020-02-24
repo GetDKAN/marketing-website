@@ -36,6 +36,9 @@ const HeaderNav = styled.nav`
   overflow-y: hidden;
   white-space: nowrap;
   padding: 0px 20px;
+  @media ${media.large} {
+    padding: 0;
+  }
 `
 
 const HeaderLinksContainer = styled.div`

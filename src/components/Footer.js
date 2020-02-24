@@ -14,11 +14,13 @@ const FooterWrapper = styled.footer`
   background-image: url(${bg});
   background-position: right bottom;
   background-repeat: no-repeat;
-
   color: ${colors.textLightest};
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+  @media screen and (max-width: 768px) {
+    background-size: contain;
+  }
 
   & nav {
     display: flex;
