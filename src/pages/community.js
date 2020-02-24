@@ -8,6 +8,7 @@ import Wrapper from '../components/Wrapper'
 import SEO from '../components/SEO'
 
 import { Text } from '../components/Commons'
+import SitesMap from '../components/Map'
 import SitesTable from '../components/SitesTable'
 import sites from '../../data/sites.json'
 
@@ -54,7 +55,7 @@ const Community = props => {
           </a>{' '}
           to add your site to the list.
         </Text>
-
+        <SitesMap text='test'/>
         <TableWrapper>
           <SitesTable data={region['Multinational']} heading="Multinational" />
         </TableWrapper>
