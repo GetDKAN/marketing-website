@@ -1,35 +1,35 @@
-import React, { Component } from 'react';
-import GoogleMapReact from 'google-map-react';
+import React, { useState } from 'react';
+import GoogleMapReact from 'google-map-react'
+import Marker from '../components/Marker'
+import sites from '../../data/sites.json'
+
+const content = sites.map((item, i) => {
+  return (
+      <Marker key={i} 
+        name={item.title} 
+        lat={item.lat}
+        lng={item.lng}
+        index={i}
+      />
+  );
+})
  
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const SitesMap = (props) => {
+  const [center, setCenter] = useState({lat: 11.0168, lng: 76.9558 });
+  const [zoom, setZoom] = useState(-41);
  
-class SitesMap extends Component {
-  static defaultProps = {
-    center: {
-      lat: 59.95,
-      lng: 30.33
-    },
-    zoom: 11
-  };
- 
-  render() {
-    return (
-      // Important! Always set the container height explicitly
-      <div style={{ height: '100vh', width: '100%' }}>
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: 111 }}
-          defaultCenter={this.props.center}
-          defaultZoom={this.props.zoom}
-        >
-          <AnyReactComponent
-            lat={59.955413}
-            lng={30.337844}
-            text="My Marker"
-          />
-        </GoogleMapReact>
-      </div>
-    );
-  }
+  return (
+    <div style={{ height: '70vh', width: '100%' }}>
+      <GoogleMapReact
+        bootstrapURLKeys={{ key: `${process.env.GOOGLE_MAPS_API_KEY}` }}
+        defaultCenter={center}
+        defaultZoom={zoom}
+      >
+        {content}
+      </GoogleMapReact>
+    </div>
+  );
+
 }
  
 export default SitesMap;

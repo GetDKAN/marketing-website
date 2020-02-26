@@ -5,10 +5,8 @@
 		"city": "",
 		"country": "",
 		"region": "Multinational",
-		"coordinates": [
-			-68.119273,
-			-16.489758
-		]
+		"lat": -16.489758,
+		"lng": -68.119273
 	},
 	{
 		"title": "The Asian Development Bank",
@@ -16,10 +14,8 @@
 		"city": "",
 		"country": "",
 		"region": "Multinational",
-		"coordinates": [
-			121.05952,
-			14.58851
-		]
+		"lat": 14.58851,
+		"lng": 121.05952
 	},
 	{
 		"title": "United Nations (Open Data System Inventory)",
@@ -27,10 +23,8 @@
 		"city": "",
 		"country": "",
 		"region": "Multinational",
-		"coordinates": [
-			-73.968031,
-			40.749103
-		]
+		"lat": 40.749103,
+		"lng": -73.968031
 	},
 	{
 		"title": "The World Bank",
@@ -38,17 +32,17 @@
 		"city": "",
 		"country": "",
 		"region": "Multinational",
-		"coordinates": [
-			-77.042656,
-			38.901299
-		]
+		"lat": 38.901299,
+		"lng": -77.042656
 	},
 	{
 		"title": "Votes Without Violence",
 		"url": "https://www.voteswithoutviolence.org",
 		"city": "",
 		"country": "USA",
-		"region": "Multinational"
+		"region": "Multinational",
+		"lat": 38.901048,
+		"lng": -77.017576
 	},
 	{
 		"title": "U.S. Department of Health and Human Services (USA)",
@@ -56,10 +50,8 @@
 		"city": "",
 		"country": "USA",
 		"region": "United States of America",
-		"coordinates": [
-			-77.017576,
-			38.901048
-		]
+		"lat": 38.901048,
+		"lng": -77.017576
 	},
 	{
 		"title": "USDA National Agricultural Library",
@@ -67,10 +59,8 @@
 		"city": "Washington",
 		"country": "USA",
 		"region": "United States of America",
-		"coordinates": [
-			-76.921752,
-			39.022775
-		]
+		"lat": 39.022775,
+		"lng": -76.921752
 	},
 	{
 		"title": "Rhode Island",
@@ -78,10 +68,8 @@
 		"city": "",
 		"country": "USA",
 		"region": "United States of America",
-		"coordinates": [
-			-71.417973,
-			41.823917
-		]
+		"lat": 41.823917,
+		"lng": -71.417973
 	},
 	{
 		"title": "Oklahoma",
@@ -89,10 +77,8 @@
 		"city": "",
 		"country": "USA",
 		"region": "United States of America",
-		"coordinates": [
-			-97.503317,
-			35.492106
-		]
+		"lat": 35.492106,
+		"lng": -97.503317
 	},
 	{
 		"title": "North Dakota",
@@ -100,10 +86,8 @@
 		"city": "",
 		"country": "USA",
 		"region": "United States of America",
-		"coordinates": [
-			-100.792981,
-			46.82791
-		]
+		"lat": 46.82791,
+		"lng": -100.792981
 	},
 	{
 		"title": "Georgia (Governor's Office of Student Achievement)",
@@ -111,10 +95,8 @@
 		"city": "",
 		"country": "USA",
 		"region": "United States of America",
-		"coordinates": [
-			-84.399935,
-			33.779339
-		]
+		"lat": 33.779339,
+		"lng": -84.399935
 	},
 	{
 		"title": "Massachusetts",
@@ -122,10 +104,8 @@
 		"city": "Louisville",
 		"country": "USA",
 		"region": "United States of America",
-		"coordinates": [
-			-71.079698,
-			42.373253
-		]
+		"lat": 42.373253,
+		"lng": -71.079698
 	},
 	{
 		"title": "Louisville, KY",
@@ -133,10 +113,8 @@
 		"city": "Louisville",
 		"country": "USA",
 		"region": "United States of America",
-		"coordinates": [
-			-85.760337,
-			38.254196
-		]
+		"lat": 38.254196,
+		"lng": -85.760337
 	},
 	{
 		"title": "OpenOakland",
@@ -144,10 +122,8 @@
 		"city": "Oakland",
 		"country": "USA",
 		"region": "United States of America",
-		"coordinates": [
-			-122.272286,
-			37.805344
-		]
+		"lat": 37.805344,
+		"lng": -122.272286
 	},
 	{
 		"title": "Department of Conservation, Missouri",
@@ -155,10 +131,8 @@
 		"city": "",
 		"country": "USA",
 		"region": "United States of America",
-		"coordinates": [
-			-92.603773,
-			38.326306
-		]
+		"lat": 38.326306,
+		"lng": -92.603773
 	},
 	{
 		"title": "Tirana, Albania",
@@ -166,10 +140,8 @@
 		"city": "Tirana",
 		"country": "Albania",
 		"region": "Europe",
-		"coordinates": [
-			19.819196,
-			41.327754
-		]
+		"lat": 41.327754,
+		"lng": 19.819196
 	},
 	{
 		"title": "City of Cambridgeshire",
@@ -177,17 +149,17 @@
 		"city": "Cambridgeshire",
 		"country": "UK",
 		"region": "Europe",
-		"coordinates": [
-			0.112802,
-			52.213009
-		]
+		"lat": 52.213009,
+		"lng": 0.112802
 	},
 	{
 		"title": "Marine Scotland",
 		"url": "https://data.marine.gov.scot",
 		"city": "",
 		"country": "Scotland",
-		"region": "Europe"
+		"region": "Europe",
+		"lat": 56.4907,
+		"lng": 4.2026
 	},
 	{
 		"title": "Detail Data Northern Ireland",
@@ -195,24 +167,8 @@
 		"city": "",
 		"country": "Northern Ireland",
 		"region": "Europe",
-		"coordinates": [
-			-5.829319,
-			54.599072
-		]
-	},
-	{
-		"title": "UK Financial Conduct Authority",
-		"url": "",
-		"city": "",
-		"country": "UK",
-		"region": "Europe"
-	},
-	{
-		"title": "Bank of England",
-		"url": "",
-		"city": "",
-		"country": "UK",
-		"region": "Europe"
+		"lat": 54.599072,
+		"lng": -5.829319
 	},
 	{
 		"title": "NPTDAT (Leibniz Institute for Plasma Science and Technology)",
@@ -220,10 +176,8 @@
 		"city": "",
 		"country": "Germany",
 		"region": "Europe",
-		"coordinates": [
-			13.395809,
-			54.08619
-		]
+		"lat": 54.08619,
+		"lng": 13.395809
 	},
 	{
 		"title": "City of Bonn",
@@ -231,10 +185,8 @@
 		"city": "Bonn",
 		"country": "Germany",
 		"region": "Europe",
-		"coordinates": [
-			7.09447,
-			50.737103
-		]
+		"lat": 50.737103,
+		"lng": 7.09447
 	},
 	{
 		"title": "City of Cologne",
