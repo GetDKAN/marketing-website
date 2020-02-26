@@ -59,18 +59,23 @@ const Community = props => {
         <SitesMap />
 
         <TableWrapper>
-          <SitesTable data={region['Multinational']} heading="Multinational" />
+          <SitesTable 
+            data={region['Multinational']} 
+            heading="Multinational"
+          />
         </TableWrapper>
 
         <TableWrapper>
           <SitesTable
             data={region['United States of America']}
-            heading="United States of America"
+            heading="United States of America" 
           />
         </TableWrapper>
 
-        <TableWrapper>
-          <SitesTable data={region['Africa']} heading="Africa" />
+        {/* <TableWrapper>
+          <SitesTable
+            data={region['Africa']}
+            heading="Africa" />
         </TableWrapper>
 
         <TableWrapper>
@@ -81,12 +86,18 @@ const Community = props => {
         </TableWrapper>
 
         <TableWrapper>
-          <SitesTable data={region['Americas']} heading="Americas" />
+          <SitesTable
+            data={region['Americas']}
+            heading="Americas"
+          />
         </TableWrapper>
 
         <TableWrapper>
-          <SitesTable data={region['Europe']} heading="Europe" />
-        </TableWrapper>
+          <SitesTable
+            data={region['Europe']}
+            heading="Europe"
+          />
+        </TableWrapper> */}
       </Wrapper>
     </Layout>
   )
