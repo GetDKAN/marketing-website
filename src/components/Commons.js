@@ -56,7 +56,7 @@ export const StyledLink = styled(Link)`
 
 export const Text = styled.p`
   line-height: 1.6;
-  margin: 1em 0 0 0;
+  margin: 1em 0;
 `
 
 export const Bull = styled.span`
