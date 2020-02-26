@@ -42,4 +42,4 @@ npm run generatePostPreviewImages
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://api.netlify.com/build_hooks/5e540559c42f9ccd8a0bae78)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://api.netlify.com/)
