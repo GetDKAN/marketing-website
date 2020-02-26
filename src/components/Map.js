@@ -29,7 +29,6 @@ const SitesMap = (props) => {
       </GoogleMapReact>
     </div>
   );
-
 }
  
 export default SitesMap;

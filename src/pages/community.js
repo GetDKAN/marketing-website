@@ -41,7 +41,7 @@ const Community = props => {
 
   const groupByRegion = groupBy('region')
   const region = groupByRegion(sites)
-  console.log(sites)
+  //console.log(sites)
 
   return (
     <Layout location={props.location}>
@@ -55,7 +55,9 @@ const Community = props => {
           </a>{' '}
           to add your site to the list.
         </Text>
-        <SitesMap text='test'/>
+
+        <SitesMap />
+
         <TableWrapper>
           <SitesTable data={region['Multinational']} heading="Multinational" />
         </TableWrapper>
