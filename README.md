@@ -40,6 +40,9 @@ npm run generatePostPreviewImages
     ├── pages
 ```
 
+## Markdown
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 ## Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://api.netlify.com/)
