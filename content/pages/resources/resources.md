@@ -3,6 +3,7 @@ title: "DKAN Resources"
 subTitle: "DKAN + open data resources."
 slug: resources
 cover: ./cover.png
+pageClass: resources
 ---
 
 - [View Demo](http://demo.getdkan.com)

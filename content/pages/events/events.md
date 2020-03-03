@@ -3,6 +3,7 @@ title: "DKAN Open Data Summit"
 subTitle: "Join open data leaders and learn how DKAN can facilitate government open data efforts."
 slug: events
 cover: ./cover.png
+pageClass: events
 ---
 
 ## Location
@@ -23,32 +24,13 @@ Tuesday, July 28, 2020 · 1-4 p.m. ET · Balcony C
 ## About
 
 
-The 2019 DKAN Summit brings together the Drupal open data community to share, collaborate, and learn about using DKAN to support their open source open data efforts. We'll discuss what's new in DKAN, open data, and what's in store the future. We'll also work together to develop ideas for improvements to the platform, share what community members are working on, and discuss how to get involved in contributing to the project. You'll make lots of great connections to other members of the open source open data community, learn best practices, and contribute toward creating a better platform for everyone.
+The DKAN Summit brings together the Drupal open data community to share, collaborate, and learn about using DKAN to support their open source open data efforts. We discuss what's new in DKAN, open data, and what's in store the future. We'll also work together to develop ideas for improvements to the platform, share what community members are working on, and discuss how to get involved in contributing to the project. You'll make lots of great connections to other members of the open source open data community, learn best practices, and contribute toward creating a better platform for everyone.
   
 
 ## Agenda
 
-### Intro to Open Data
-* 1:00pm: Welcome
-* 1:10pm: Why Open Data? Andy Krackov
-* 1:40pm: What is the OPEN Government Data Act? Jessica Yabsley
-* 1:50pm: Why Open Source? Kim Davidson
-* 5 minute break
+**TBD**
 
-### Case Studies
-* 2:05pm: USDA's Open Data and Public Access Programs - Cyndy Parr
-* 2:25pm: CivicActions client use/problem solving
-* 2:45pm: What is the future of DKAN?
-* 5 minute break
-
-### Interactive
-* 3:05pm: Data Story Telling - Andy Krackov
-
-### Training breakouts
-* Developer Q&A
-* How to use DKAN2
-* DKAN 7 Q&A
-* CivicActions Open Data Services
 
 ## Supporters
 

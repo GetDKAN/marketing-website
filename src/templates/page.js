@@ -26,7 +26,7 @@ export default props => {
         subTitle={page.frontmatter.subTitle}
       />
 
-      <Wrapper>
+      <Wrapper className={page.frontmatter.pageClass}>
         <article>
           <Content content={page.body} date={page.frontmatter.date} />
         </article>
@@ -45,6 +45,7 @@ export const pageQuery = graphql`
         subTitle
         date(formatString: "MMMM DD, YYYY")
         slug
+        pageClass
         cover {
           publicURL
         }
