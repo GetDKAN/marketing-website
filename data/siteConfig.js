@@ -9,7 +9,7 @@ module.exports = {
   authorDescription: `
   We help agencies improve lives through modern software and thoughtful experiences.
   `,
-  siteUrl: 'http://getkdkan.com/',
+  siteUrl: 'http://getkdkan.org/',
   disqusSiteUrl: '',
   // Prefixes all links. For cases when deployed to maxpou.fr/gatsby-starter-morning-dew/
   pathPrefix: '/example', // Note: it must *not* have a trailing slash.

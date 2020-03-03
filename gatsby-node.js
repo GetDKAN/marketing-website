@@ -28,6 +28,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
               slug
               tags
               language
+              pageClass
               cover {
                 publicURL
               }
