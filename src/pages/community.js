@@ -72,10 +72,11 @@ const Community = props => {
           />
         </TableWrapper>
 
-        {/* <TableWrapper>
+       <TableWrapper>
           <SitesTable
             data={region['Africa']}
-            heading="Africa" />
+            heading="Africa"
+          />
         </TableWrapper>
 
         <TableWrapper>
@@ -97,7 +98,7 @@ const Community = props => {
             data={region['Europe']}
             heading="Europe"
           />
-        </TableWrapper> */}
+        </TableWrapper>
       </Wrapper>
     </Layout>
   )
