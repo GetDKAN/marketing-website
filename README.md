@@ -40,6 +40,11 @@ npm run generatePostPreviewImages
     ├── pages
 ```
 
+## Images
+Upload image files to `/static`
+Then add them with html `<img src={'/image.png'} alt="Logo" />`
+or markdown `[![logo](./image.png)]`
+
 ## Markdown
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 

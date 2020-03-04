@@ -59,30 +59,30 @@ const BioText = styled(Text)`
 `
 
 const Bio = () => {
-  const { authorAvatar, authorName, authorDescription, name } = useSiteMetadata()
+  const { authorAvatar, authorName, intro, name } = useSiteMetadata()
   const { fixed } = useSiteImages(authorAvatar)
 
   const member = team.map(x => {
     let member = {
       name: name,
+      intro: intro
     }
     return member
   })
 
   return (
     <BioWrapper>
-      hello
       {/* <figure className="author-image">
         <div
           alt={name}
-          style={{ backgroundImage: `url("${image}")` }}
+          //style={{ backgroundImage: `url("${image}")` }}
           className="img"
         />
-      </figure>
+      </figure> */}
       <section>
-        <h4>About the author</h4>
-        <BioText dangerouslySetInnerHTML={{ __html: authorDescription }} />
-      </section> */}
+        <h4>{name}</h4>
+        <p>{intro}</p>
+      </section>
     </BioWrapper>
   )
 }

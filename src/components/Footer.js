@@ -146,34 +146,34 @@ const Footer = () => {
         <div className="footer-col">
           <img src={logo} alt="DKAN logo" className="footer-logo" />
           <div className="icons">
-            <a href="http://eepurl.com/c01YS1">
+            <a href="http://eepurl.com/c01YS1" title="Subscribe to our Newsletter">
               <i className="fa fa-envelope" aria-hidden="true"></i>
             </a>
-            <a href="https://medium.com/dkan-blog">
+            <a href="https://medium.com/dkan-blog" title="Read blog posts">
               <i className="fa fa-medium" aria-hidden="true"></i>
             </a>
-            <a href="https://getdkan.org/community">
+            <a href="https://getdkan.org/community" title="Join us on Slack">
               <i className="fa fa-slack" aria-hidden="true"></i>
             </a>
-            <a href="https://twitter.com/getdkan">
+            <a href="https://twitter.com/getdkan" title="Follow us on Twitter">
               <i className="fa fa-twitter" aria-hidden="true"></i>
             </a>
-            <a href="https://www.facebook.com/GetDKAN/">
+            <a href="https://www.facebook.com/GetDKAN/" title="Like us on Facebook">
               <i className="fa fa-facebook" aria-hidden="true"></i>
             </a>
-            <a href="https://www.linkedin.com/company/dkan/">
+            <a href="https://www.linkedin.com/company/dkan/" title="Check us out on LinkedIn">
               <i className="fa fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a href="https://github.com/getdkan">
+            <a href="https://github.com/getdkan" title="Fork the code on Github">
               <i className="fa fa-github" aria-hidden="true"></i>
             </a>
-            <a href="https://www.youtube.com/channel/UCl7qFUCkyh32lss4EjQEUXg">
+            <a href="https://www.youtube.com/channel/UCl7qFUCkyh32lss4EjQEUXg" title="View videos on YouTube">
               <i className="fa fa-youtube" aria-hidden="true"></i>
             </a>
-            <a href="https://www.drupal.org/project/dkan">
+            <a href="https://www.drupal.org/project/dkan" title="View the Drupal project page">
               <i className="fa fa-drupal" aria-hidden="true"></i>
             </a>
-            <a href="https://www.eventbrite.com/o/dkan-14793986036">
+            <a href="https://www.eventbrite.com/o/dkan-14793986036" title="Register for events">
               <i className="fa fa-ticket" aria-hidden="true"></i>
             </a>
           </div>

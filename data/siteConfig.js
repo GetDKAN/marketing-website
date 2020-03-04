@@ -25,6 +25,10 @@ module.exports = {
   headerLinksIcon: 'dkan-white.png', //  (leave empty to disable: '')
   headerLinks: [
     {
+      label: 'Blog',
+      url: 'https://medium.com/dkan-blog',
+    },
+    {
       label: 'About',
       url: '/about',
     },

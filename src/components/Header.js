@@ -114,15 +114,28 @@ const MobileNav = styled.nav`
 `
 
 const HeaderLinks = ({ headerLinks }) => {
-  return headerLinks.map((headerLink, i) => (
-    <HeaderLink
-      to={headerLink.url}
-      key={`header-link-${i}`}
-      aria-label={`View ${headerLink.label} page`}
-    >
-      {headerLink.label}
-    </HeaderLink>
-  ))
+  console.log(headerLinks);
+  return headerLinks.map((headerLink, i) => {
+    const link = headerLink.url.split(':');
+    //console.log('link ', link);
+    if ( link[0] == ("https")) {
+      return (
+        <a href={headerLink.url} aria-label="View blog posts" key="blog" className="nav-link">
+          {headerLink.label}
+        </a>
+      )
+    }
+    return (
+      <HeaderLink
+        to={headerLink.url}
+        key={`header-link-${i}`}
+        aria-label={`View ${headerLink.label} page`}
+        className="nav-link"
+      >
+        {headerLink.label}
+      </HeaderLink>
+    )
+  })
 }
 
 const BurgerButton = styled.button`
