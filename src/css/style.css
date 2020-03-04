@@ -1,5 +1,9 @@
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-  
+
+main[class^="Wrapper"] {
+    max-width: 940px;
+}
+
 /* Main Nav */
 nav div a.nav-link,
 nav div a.nav-link:hover {
@@ -52,10 +56,10 @@ div[class^="Content__ContentBody"] > h2:first-of-type {
 a > .gatsby-resp-image-wrapper > .gatsby-resp-image-background-image {
     background-image: none !important;
 }
-
-main[class^="Wrapper"] {
-    max-width: 940px;
-}
+/* a:has(> img), */
+.support p a,
+.support p a:focus,
+.support p a:hover { text-decoration: none; box-shadow: none; }
 
 /* Pages */
 
@@ -80,9 +84,6 @@ main[class^="Wrapper"] {
 .home .support p { display: flex;flex-wrap: wrap; }
 .home .support p a img { max-height: 70px; }
 .home .support p a { width: 49%; height: 100px; vertical-align: middle; text-align: center;  }
-.home .support p a,
-.home .support p a:focus,
-.home .support p a:hover { text-decoration: none; box-shadow: none; }
 
 @media screen and (max-width: 768px) {
     .home section h2 { text-align: center; padding: 10px 0 0 0; margin: 0; }
