@@ -12,6 +12,9 @@ import SitesMap from '../components/Map'
 import SitesTable from '../components/SitesTable'
 import sites from '../../data/sites.json'
 
+import Bio from '../components/Bio';
+
+
 const TableWrapper = styled.div`
   padding-top: 20px;
   margin-top: 20px;
@@ -46,10 +49,11 @@ const Community = props => {
   return (
     <Layout location={props.location}>
       <SEO title="Community" />
+      <Bio />
       <Wrapper>
         <h1>Community</h1>
         <Text>
-          A partial list of DKAN sites around the world.{' '}
+        DKAN is used by organizations throughout the world.{' '}
           <a href="https://github.com/GetDKAN/dkan/issues/new">
             Submit an issue
           </a>{' '}
