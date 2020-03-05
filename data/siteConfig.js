@@ -29,8 +29,8 @@ module.exports = {
       url: 'https://medium.com/dkan-blog',
     },
     {
-      label: 'About',
-      url: '/about',
+      label: 'Support',
+      url: '/support',
     },
     {
       label: 'Community',

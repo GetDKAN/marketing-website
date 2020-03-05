@@ -1,88 +1,63 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Text } from './Commons'
-import useSiteMetadata from '../hooks/use-site-config'
-import useSiteImages from '../hooks/use-site-images'
 import { colors } from '../tokens'
 import team from '../../data/team.json'
 
+
 const BioWrapper = styled.div`
-  & .author-image {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: block;
-    position: absolute;
-    top: -40px;
-    left: 50%;
-    margin-left: -40px;
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
-    overflow: hidden;
-    padding: 6px;
-    z-index: 2;
-    box-shadow: #ececec 0 0 0 1px;
-    background-color: ${colors.backgroundArticle};
-  }
-
-  & .author-image .img {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center center;
-    border-radius: 100%;
-  }
-
-  & .author-profile .author-image {
-    position: relative;
-    left: auto;
-    top: auto;
-    width: 120px;
-    height: 120px;
-    padding: 3px;
-    margin: -100px auto 0 auto;
-    box-shadow: none;
-  }
-`
-
-const BioText = styled(Text)`
-  & a {
-    box-shadow: 0 2px 0 0 ${colors.links};
-  }
-  & a:hover {
-    filter: brightness(150%);
-    box-shadow: none;
+  margin: 40px auto;
+  display: flexbox;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 940px;
+  .team-member {
+    padding: 15px;
+    text-align:center;
+    img {
+      max-width: 130px;
+      height: auto;
+      border-radius: 5px;
+    }
+    h4 {
+      margin: 8px 0;
+    }
+    i {
+      margin: 0 10px;
+      font-size: 1.25rem;
+    }
   }
 `
 
 const Bio = () => {
-  const { authorAvatar, authorName, intro, name } = useSiteMetadata()
-  const { fixed } = useSiteImages(authorAvatar)
+  const Team = team.map((member,i) => {
+    let photo = member.image ? member.image : '/dkan-avatar-blue.png';
+    let git = member.github ?
+      <a href={member.github}>
+        <i className="fa fa-github" aria-hidden="true"></i>
+        <span className="sr-only">{member.name}'s Github page</span>
+      </a>
+      : '';
+    let linked = member.linkedin ?
+      <a href={member.linkedin}>
+        <i className="fa fa-linkedin" aria-hidden="true"></i>
+        <span className="sr-only">{member.name}'s Linked In page</span>
+      </a>
+      : '';
 
-  const member = team.map(x => {
-    let member = {
-      name: name,
-      intro: intro
-    }
-    return member
-  })
+    return (
+      <div className="team-member" key={i}>
+        <img src={photo} alt={member.name} />
+        <h4>{member.name}</h4>
+        {git} 
+        {linked}
+      </div>
+    )
+  });
 
   return (
     <BioWrapper>
-      {/* <figure className="author-image">
-        <div
-          alt={name}
-          //style={{ backgroundImage: `url("${image}")` }}
-          className="img"
-        />
-      </figure> */}
-      <section>
-        <h4>{name}</h4>
-        <p>{intro}</p>
-      </section>
+      {Team}
     </BioWrapper>
   )
 }

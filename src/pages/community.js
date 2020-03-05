@@ -12,9 +12,6 @@ import SitesMap from '../components/Map'
 import SitesTable from '../components/SitesTable'
 import sites from '../../data/sites.json'
 
-import Bio from '../components/Bio';
-
-
 const TableWrapper = styled.div`
   padding-top: 20px;
   margin-top: 20px;
@@ -44,12 +41,10 @@ const Community = props => {
 
   const groupByRegion = groupBy('region')
   const region = groupByRegion(sites)
-  //console.log(sites)
 
   return (
     <Layout location={props.location}>
       <SEO title="Community" />
-      <Bio />
       <Wrapper>
         <h1>Community</h1>
         <Text>

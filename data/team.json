@@ -1,64 +1,62 @@
 [
     {
         "name": "Kim Davidson",
-        "intro": "Kim serves as Project Manager for Project DKAN and the core DKAN product. She facilitates the shaping of the roadmap, manages the development team’s agile process, and ensures all DKAN work efforts are aligned. She navigates layers of stakeholders and triages requests, feedback, and community needs. She also coordinates work, time, resources, processes, and team members to ensure focus on the big goals while keeping the small details in sight. Before joining CivicActions, Kim worked with progressive nonprofits as a Project Manager at Advomatic and before that, managed community engagement at Idealist.org.",
-        "image": "",
+        "image": "/people/kim-davidson.jpg",
         "linkedin": "https://www.linkedin.com/in/kimwdavidson/",
         "github": "https://github.com/kimwdavidson"
     },
     {
         "name": "Janette Day",
-        "intro": "",
+        "image": "/people/janette-day.jpg",
         "linkedin": "https://www.linkedin.com/in/janette-day-7080841/",
         "github": "https://github.com/janette"
     },
     {
         "name": "Dharizza Espinach",
-        "intro": "",
-        "image": "",
-        "linkedin": "",
-        "github": ""
+        "image": "/people/dharizza-espinach.jpg",
+        "linkedin": "https://www.linkedin.com/in/dharizza-espinach-barahona-116b7493/",
+        "github": "https://github.com/dharizza"
     },
     {
         "name": "Dan Feder",
-        "intro": "",
-        "image": "",
-        "linkedin": "",
-        "github": ""
+        "image": "/people/dan-feder.jpg",
+        "linkedin": "https://www.linkedin.com/in/daniel-feder-1450a915/",
+        "github": "https://github.com/dafeder"
     },
     {
         "name": "Daniel Gading",
-        "intro": "",
-        "image": "",
-        "linkedin": "",
-        "github": ""
+        "image": "/people/daniel-gading.jpg",
+        "linkedin": "https://www.linkedin.com/in/daniel-gading",
+        "github": "https://github.com/dgading"
     },
     {
         "name": "Gerardo Gonzalez",
-        "intro": "",
-        "image": "",
-        "linkedin": "",
-        "github": ""
+        "image": "/people/gerardo-gonzalez.jpg",
+        "linkedin": "https://www.linkedin.com/in/fmizzell/",
+        "github": "https://github.com/fmizzell"
+    },
+    {
+        "name": "Ero Gray",
+        "image": "/people/ero-gray.jpg",
+        "linkedin": "https://www.linkedin.com/in/erogray/",
+        "github": "https://github.com/erogray/"
     },
     {
         "name": "Stefanie Gray",
-        "intro": "",
-        "image": "",
-        "linkedin": "",
-        "github": ""
-    },
-    {
-        "name": "Beth Jacobson",
-        "intro": "",
-        "image": "",
-        "linkedin": "",
-        "github": ""
+        "image": "/people/stefanie-gray.jpg",
+        "linkedin": "https://www.linkedin.com/in/stefaniegray/",
+        "github": "https://github.com/stefaniefgray"
     },
     {
         "name": "Bill Ogilvie",
-        "intro": "",
-        "image": "",
-        "linkedin": "",
+        "image": "/people/bill-ogilvie.jpg",
+        "linkedin": "https://www.linkedin.com/in/bill-ogilvie-91b4b5/",
+        "github": ""
+    },
+    {
+        "name": "David Sumner",
+        "image": "/people/david-sumner.jpg",
+        "linkedin": "https://www.linkedin.com/in/davidasumner/",
         "github": ""
     }
 ]

@@ -114,10 +114,8 @@ const MobileNav = styled.nav`
 `
 
 const HeaderLinks = ({ headerLinks }) => {
-  console.log(headerLinks);
   return headerLinks.map((headerLink, i) => {
     const link = headerLink.url.split(':');
-    //console.log('link ', link);
     if ( link[0] == ("https")) {
       return (
         <a href={headerLink.url} aria-label="View blog posts" key="blog" className="nav-link">
