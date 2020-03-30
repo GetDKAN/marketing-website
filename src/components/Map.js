@@ -6,8 +6,8 @@ import sites from '../../data/sites.json'
 
 const points = sites.map((item, i) => {
   return (
-      <Marker key={i} 
-        name={item.title} 
+      <Marker key={i}
+        name={item.title}
         lat={item.lat}
         lng={item.lng}
         index={i}
@@ -22,11 +22,11 @@ const points = sites.map((item, i) => {
 const SitesMap = (props) => {
   const [center, setCenter] = useState({lat: 0, lng: 0 });
   const [zoom, setZoom] = useState(-1);
-  
+
   return (
     <div style={{ height: '50vh', width: '100%' }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: `${process.env.GOOGLE_MAPS_API_KEY}` }}
+        bootstrapURLKeys={{ key: `${process.env.GATSBY_GOOGLE_API_KEY}` }}
         defaultCenter={center}
         defaultZoom={zoom}
         //bounds={bounds}
@@ -38,5 +38,5 @@ const SitesMap = (props) => {
   );
 
 }
-  
+
 export default SitesMap;
