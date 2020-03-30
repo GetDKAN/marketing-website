@@ -146,13 +146,13 @@ const Footer = () => {
         <div className="footer-col">
           <img src={logo} alt="DKAN logo" className="footer-logo" />
           <div className="icons">
-            <a href="http://eepurl.com/c01YS1" title="Subscribe to our Newsletter">
+            <a href="mailto:dkan-int@civicactions.net" title="Contact Us">
               <i className="fa fa-envelope" aria-hidden="true"></i>
             </a>
             <a href="https://medium.com/dkan-blog" title="Read blog posts">
               <i className="fa fa-medium" aria-hidden="true"></i>
             </a>
-            <a href="https://getdkan.org/community" title="Join us on Slack">
+            <a href="https://dkan.slack.com/" title="Join us on Slack">
               <i className="fa fa-slack" aria-hidden="true"></i>
             </a>
             <a href="https://twitter.com/getdkan" title="Follow us on Twitter">
