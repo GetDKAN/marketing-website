@@ -203,6 +203,15 @@
 		"region": "Europe"
 	},
 	{
+		"title": "City of Münster",
+		"url": "https://opendata.stadt-muenster.de",
+		"city": "Münster",
+		"country": "Germany",
+		"region": "Europe",
+		"lat": 51.962248,
+		"lng": 7.623902
+	},
+	{
 		"title": "Mülheim an der Ruhr",
 		"url": "https://geo.muelheim-ruhr.de",
 		"city": "Mülheim an der Ruhr",
