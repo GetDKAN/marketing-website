@@ -50,9 +50,6 @@ const Support = props => {
           <a href="https://civicactions.com">
             <img src="./civicactions.png" alt="CivicActions"/>
           </a>
-          <a href="http://landing.dkan.annai.co.jp">
-            <img src="./annai.png" alt="Annai"/>
-          </a>
         </div>
 
         <hr/>
@@ -68,7 +65,7 @@ const Support = props => {
 
         <h3><i class="fa fa-check-square-o" aria-hidden="true"></i> Community and User Empowerment</h3>
         <p>DKAN empowers data publishers to easily share their data, empowers policymakers to make good, data-driven decisions, and empowers citizens to hold accountable the institutions that serve them.</p>
-        
+
         <h3><i class="fa fa-check-square-o" aria-hidden="true"></i> Transparency and Openness</h3>
         <p>Driven by a transparent, engaging development process that advocates and enables transparency in our institutions, DKAN is open source, openly managed, and compliant with open standards.</p>
 
