@@ -135,6 +135,15 @@
 		"lng": -92.603773
 	},
 	{
+		"title": "Urban Institute",
+		"url": "https://datacatalog.urban.org/",
+		"city": "Washington, DC",
+		"country": "USA",
+		"region": "United States of America",
+		"lat": 38.8761223,
+		"lng": -77.0253741
+	},
+	{
 		"title": "Tirana, Albania",
 		"url": "https://opendata.tirana.al/",
 		"city": "Tirana",
