@@ -140,7 +140,7 @@ const Footer = () => {
   //   )
   // }
 
-  return (
+return (
     <FooterWrapper>
       <nav>
         <div className="footer-col">
@@ -152,7 +152,7 @@ const Footer = () => {
             <a href="https://medium.com/dkan-blog" title="Read blog posts">
               <i className="fa fa-medium" aria-hidden="true"></i>
             </a>
-            <a href="https://dkan.slack.com/" title="Join us on Slack">
+            <a href="https://dkansignup.herokuapp.com/" title="Join us on Slack">
               <i className="fa fa-slack" aria-hidden="true"></i>
             </a>
             <a href="https://twitter.com/getdkan" title="Follow us on Twitter">
@@ -167,14 +167,8 @@ const Footer = () => {
             <a href="https://github.com/getdkan" title="Fork the code on Github">
               <i className="fa fa-github" aria-hidden="true"></i>
             </a>
-            <a href="https://www.youtube.com/channel/UCl7qFUCkyh32lss4EjQEUXg" title="View videos on YouTube">
-              <i className="fa fa-youtube" aria-hidden="true"></i>
-            </a>
             <a href="https://www.drupal.org/project/dkan" title="View the Drupal project page">
               <i className="fa fa-drupal" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.eventbrite.com/o/dkan-14793986036" title="Register for events">
-              <i className="fa fa-ticket" aria-hidden="true"></i>
             </a>
           </div>
           <h5 className="footer-title">
