@@ -1,772 +1,835 @@
 [
-	{
-		"title": "International Organization of Migration (CTDC)",
-		"url": "https://www.ctdatacollaborative.org/",
-		"city": "",
-		"country": "",
-		"region": "Multinational",
-		"lat": -16.489758,
-		"lng": -68.119273
-	},
-	{
-		"title": "The Asian Development Bank",
-		"url": "https://data.adb.org/",
-		"city": "",
-		"country": "",
-		"region": "Multinational",
-		"lat": 14.58851,
-		"lng": 121.05952
-	},
-	{
-		"title": "United Nations (Open Data System Inventory)",
-		"url": "http://data.un.org/",
-		"city": "",
-		"country": "",
-		"region": "Multinational",
-		"lat": 40.749103,
-		"lng": -73.968031
-	},
-	{
-		"title": "The World Bank",
-		"url": "http://climatesmartplanning.org/",
-		"city": "",
-		"country": "",
-		"region": "Multinational",
-		"lat": 38.901299,
-		"lng": -77.042656
-	},
-	{
-		"title": "Votes Without Violence",
-		"url": "https://www.voteswithoutviolence.org",
-		"city": "",
-		"country": "USA",
-		"region": "Multinational",
-		"lat": 38.901048,
-		"lng": -77.017576
-	},
-	{
-		"title": "U.S. Department of Health and Human Services (USA)",
-		"url": "https://healthdata.gov",
-		"city": "",
-		"country": "USA",
-		"region": "United States of America",
-		"lat": 38.901048,
-		"lng": -77.017576
-	},
-	{
-		"title": "USDA National Agricultural Library",
-		"url": "http://data.nal.usda.gov",
-		"city": "Washington",
-		"country": "USA",
-		"region": "United States of America",
-		"lat": 39.022775,
-		"lng": -76.921752
-	},
-	{
-		"title": "Rhode Island",
-		"url": "https://data.ri.gov",
-		"city": "",
-		"country": "USA",
-		"region": "United States of America",
-		"lat": 41.823917,
-		"lng": -71.417973
-	},
-	{
-		"title": "Oklahoma",
-		"url": "http://data.ok.gov",
-		"city": "",
-		"country": "USA",
-		"region": "United States of America",
-		"lat": 35.492106,
-		"lng": -97.503317
-	},
-	{
-		"title": "North Dakota",
-		"url": "https://gishubdata.nd.gov/",
-		"city": "",
-		"country": "USA",
-		"region": "United States of America",
-		"lat": 46.82791,
-		"lng": -100.792981
-	},
-	{
-		"title": "Georgia (Governor's Office of Student Achievement)",
-		"url": "https://schoolgrades.georgia.gov",
-		"city": "",
-		"country": "USA",
-		"region": "United States of America",
-		"lat": 33.779339,
-		"lng": -84.399935
-	},
-	{
-		"title": "Massachusetts",
-		"url": "https://docs.digital.mass.gov/",
-		"city": "Louisville",
-		"country": "USA",
-		"region": "United States of America",
-		"lat": 42.373253,
-		"lng": -71.079698
-	},
-	{
-		"title": "Louisville, KY",
-		"url": "https://data.louisvilleky.gov",
-		"city": "Louisville",
-		"country": "USA",
-		"region": "United States of America",
-		"lat": 38.254196,
-		"lng": -85.760337
-	},
-	{
-		"title": "OpenOakland",
-		"url": "http://data.openoakland.org",
-		"city": "Oakland",
-		"country": "USA",
-		"region": "United States of America",
-		"lat": 37.805344,
-		"lng": -122.272286
-	},
-	{
-		"title": "Department of Conservation, Missouri",
-		"url": "https://research.mdc.mo.gov/",
-		"city": "",
-		"country": "USA",
-		"region": "United States of America",
-		"lat": 38.326306,
-		"lng": -92.603773
-	},
-	{
-		"title": "Urban Institute",
-		"url": "https://datacatalog.urban.org/",
-		"city": "Washington, DC",
-		"country": "USA",
-		"region": "United States of America",
-		"lat": 38.8761223,
-		"lng": -77.0253741
-	},
-	{
-		"title": "Tirana, Albania",
-		"url": "https://opendata.tirana.al/",
-		"city": "Tirana",
-		"country": "Albania",
-		"region": "Europe",
-		"lat": 41.327754,
-		"lng": 19.819196
-	},
-	{
-		"title": "City of Cambridgeshire",
-		"url": "http://opendata.cambridgeshireinsight.org.uk",
-		"city": "Cambridgeshire",
-		"country": "UK",
-		"region": "Europe",
-		"lat": 52.213009,
-		"lng": 0.112802
-	},
-	{
-		"title": "Marine Scotland",
-		"url": "https://data.marine.gov.scot",
-		"city": "",
-		"country": "Scotland",
-		"region": "Europe",
-		"lat": 56.4907,
-		"lng": 4.2026
-	},
-	{
-		"title": "Detail Data Northern Ireland",
-		"url": "http://data.nicva.org",
-		"city": "",
-		"country": "Northern Ireland",
-		"region": "Europe",
-		"lat": 54.599072,
-		"lng": -5.829319
-	},
-	{
-		"title": "NPTDAT (Leibniz Institute for Plasma Science and Technology)",
-		"url": "https://www.inptdat.de/",
-		"city": "",
-		"country": "Germany",
-		"region": "Europe",
-		"lat": 54.08619,
-		"lng": 13.395809
-	},
-	{
-		"title": "City of Bonn",
-		"url": "http://opendata.bonn.de",
-		"city": "Bonn",
-		"country": "Germany",
-		"region": "Europe",
-		"lat": 50.737103,
-		"lng": 7.09447
-	},
-	{
-		"title": "City of Cologne",
-		"url": "http://www.offenedaten-koeln.de",
-		"city": "Cologne",
-		"country": "Germany",
-		"region": "Europe"
-	},
-	{
-		"title": "City of Dusseldorf",
-		"url": "http://www.offenedaten-duesseldorf.de",
-		"city": "Dusseldorf",
-		"country": "Germany",
-		"region": "Europe"
-	},
-	{
-		"title": "City of Münster",
-		"url": "https://opendata.stadt-muenster.de",
-		"city": "Münster",
-		"country": "Germany",
-		"region": "Europe",
-		"lat": 51.962248,
-		"lng": 7.623902
-	},
-	{
-		"title": "Mülheim an der Ruhr",
-		"url": "https://geo.muelheim-ruhr.de",
-		"city": "Mülheim an der Ruhr",
-		"country": "Germany",
-		"region": "Europe",
-		"lat": 51.428735,
-		"lng": 6.877627
-	},
-	{
-		"title": "City of Wuppertal",
-		"url": "http://offenedaten-wuppertal.de",
-		"city": "Wuppertal",
-		"country": "Germany",
+  {
+    "title": "International Organization of Migration (CTDC)",
+    "url": "https://www.ctdatacollaborative.org/",
+    "city": "",
+    "country": "",
+    "region": "Multinational",
+    "lat": -16.489758,
+    "lng": -68.119273
+  },
+  {
+    "title": "The Asian Development Bank",
+    "url": "https://data.adb.org/",
+    "city": "",
+    "country": "",
+    "region": "Multinational",
+    "lat": 14.58851,
+    "lng": 121.05952
+  },
+  {
+    "title": "United Nations (Open Data System Inventory)",
+    "url": "http://data.un.org/",
+    "city": "",
+    "country": "",
+    "region": "Multinational",
+    "lat": 40.749103,
+    "lng": -73.968031
+  },
+  {
+    "title": "The World Bank",
+    "url": "http://climatesmartplanning.org/",
+    "city": "",
+    "country": "",
+    "region": "Multinational",
+    "lat": 38.901299,
+    "lng": -77.042656
+  },
+  {
+    "title": "Votes Without Violence",
+    "url": "https://www.voteswithoutviolence.org",
+    "city": "",
+    "country": "USA",
+    "region": "Multinational",
+    "lat": 38.901048,
+    "lng": -77.017576
+  },
+  {
+    "title": "U.S. Department of Health and Human Services (USA)",
+    "url": "https://healthdata.gov",
+    "city": "",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 38.901048,
+    "lng": -77.017576
+  },
+  {
+    "title": "USDA National Agricultural Library",
+    "url": "http://data.nal.usda.gov",
+    "city": "Washington",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 39.022775,
+    "lng": -76.921752
+  },
+  {
+    "title": "Rhode Island",
+    "url": "https://data.ri.gov",
+    "city": "",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 41.823917,
+    "lng": -71.417973
+  },
+  {
+    "title": "Oklahoma",
+    "url": "http://data.ok.gov",
+    "city": "",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 35.492106,
+    "lng": -97.503317
+  },
+  {
+    "title": "North Dakota",
+    "url": "https://gishubdata.nd.gov/",
+    "city": "",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 46.82791,
+    "lng": -100.792981
+  },
+  {
+    "title": "Georgia (Governor's Office of Student Achievement)",
+    "url": "https://schoolgrades.georgia.gov",
+    "city": "",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 33.779339,
+    "lng": -84.399935
+  },
+  {
+    "title": "Massachusetts",
+    "url": "https://docs.digital.mass.gov/",
+    "city": "Louisville",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 42.373253,
+    "lng": -71.079698
+  },
+  {
+    "title": "Louisville, KY",
+    "url": "https://data.louisvilleky.gov",
+    "city": "Louisville",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 38.254196,
+    "lng": -85.760337
+  },
+  {
+    "title": "OpenOakland",
+    "url": "http://data.openoakland.org",
+    "city": "Oakland",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 37.805344,
+    "lng": -122.272286
+  },
+  {
+    "title": "Department of Conservation, Missouri",
+    "url": "https://research.mdc.mo.gov/",
+    "city": "",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 38.326306,
+    "lng": -92.603773
+  },
+  {
+    "title": "Urban Institute",
+    "url": "https://datacatalog.urban.org/",
+    "city": "Washington, DC",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 38.8761223,
+    "lng": -77.0253741
+  },
+  {
+    "title": "Tirana, Albania",
+    "url": "https://opendata.tirana.al/",
+    "city": "Tirana",
+    "country": "Albania",
+    "region": "Europe",
+    "lat": 41.327754,
+    "lng": 19.819196
+  },
+  {
+    "title": "City of Cambridgeshire",
+    "url": "http://opendata.cambridgeshireinsight.org.uk",
+    "city": "Cambridgeshire",
+    "country": "UK",
+    "region": "Europe",
+    "lat": 52.213009,
+    "lng": 0.112802
+  },
+  {
+    "title": "Marine Scotland",
+    "url": "https://data.marine.gov.scot",
+    "city": "",
+    "country": "Scotland",
+    "region": "Europe",
+    "lat": 56.4907,
+    "lng": 4.2026
+  },
+  {
+    "title": "Detail Data Northern Ireland",
+    "url": "http://data.nicva.org",
+    "city": "",
+    "country": "Northern Ireland",
+    "region": "Europe",
+    "lat": 54.599072,
+    "lng": -5.829319
+  },
+  {
+    "title": "NPTDAT (Leibniz Institute for Plasma Science and Technology)",
+    "url": "https://www.inptdat.de/",
+    "city": "",
+    "country": "Germany",
+    "region": "Europe",
+    "lat": 54.08619,
+    "lng": 13.395809
+  },
+  {
+    "title": "City of Bonn",
+    "url": "http://opendata.bonn.de",
+    "city": "Bonn",
+    "country": "Germany",
+    "region": "Europe",
+    "lat": 50.737103,
+    "lng": 7.09447
+  },
+  {
+    "title": "City of Cologne",
+    "url": "http://www.offenedaten-koeln.de",
+    "city": "Cologne",
+    "country": "Germany",
+    "region": "Europe"
+  },
+  {
+    "title": "City of Dusseldorf",
+    "url": "http://www.offenedaten-duesseldorf.de",
+    "city": "Dusseldorf",
+    "country": "Germany",
+    "region": "Europe"
+  },
+  {
+    "title": "City of Münster",
+    "url": "https://opendata.stadt-muenster.de",
+    "city": "Münster",
+    "country": "Germany",
+    "region": "Europe",
+    "lat": 51.962248,
+    "lng": 7.623902
+  },
+  {
+    "title": "Mülheim an der Ruhr",
+    "url": "https://geo.muelheim-ruhr.de",
+    "city": "Mülheim an der Ruhr",
+    "country": "Germany",
+    "region": "Europe",
+    "lat": 51.428735,
+    "lng": 6.877627
+  },
+  {
+    "title": "City of Wuppertal",
+    "url": "http://offenedaten-wuppertal.de",
+    "city": "Wuppertal",
+    "country": "Germany",
     "region": "Europe",
     "lat": 51.272093,
-		"lng": 7.200039
-	},
-	{
-		"title": "RNV",
-		"url": "https://opendata.rnv-online.de",
-		"city": "RNV",
-		"country": "Germany",
+    "lng": 7.200039
+  },
+  {
+    "title": "RNV",
+    "url": "https://opendata.rnv-online.de",
+    "city": "RNV",
+    "country": "Germany",
     "region": "Europe",
     "lat": 49.4416,
-		"lng": 8.61471
-	},
-	{
-		"title": "KDZV Frechen Rhein Erft Rur",
-		"url": "http://offenedaten.kdvz-frechen.de/",
-		"city": "KDZV Frechen Rhein Erft Rur",
-		"country": "Germany",
+    "lng": 8.61471
+  },
+  {
+    "title": "KDZV Frechen Rhein Erft Rur",
+    "url": "http://offenedaten.kdvz-frechen.de/",
+    "city": "KDZV Frechen Rhein Erft Rur",
+    "country": "Germany",
     "region": "Europe",
     "lat": 50.912761,
-		"lng": 6.827938
-	},
-	{
-		"title": "Landkreis Diepholz",
-		"url": "http://daten.diepholz.de/",
-		"city": "Landkreis Diepholz",
-		"country": "Germany",
+    "lng": 6.827938
+  },
+  {
+    "title": "Landkreis Diepholz",
+    "url": "http://daten.diepholz.de/",
+    "city": "Landkreis Diepholz",
+    "country": "Germany",
     "region": "Europe",
     "lat": 52.60868,
-		"lng": 8.37555
-	},
-	{
-		"title": "Gelsenkirchen",
-		"url": "https://opendata.gelsenkirchen.de/",
-		"city": "Gelsenkirchen",
-		"country": "Germany",
+    "lng": 8.37555
+  },
+  {
+    "title": "Gelsenkirchen",
+    "url": "https://opendata.gelsenkirchen.de/",
+    "city": "Gelsenkirchen",
+    "country": "Germany",
     "region": "Europe",
     "lat": 51.5075,
-		"lng": 7.12283
-	},
-	{
-		"title": "City of Montpellier",
-		"url": "http://data.montpellier3m.fr/",
-		"city": "Montpellier",
-		"country": "France",
+    "lng": 7.12283
+  },
+  {
+    "title": "City of Montpellier",
+    "url": "http://data.montpellier3m.fr/",
+    "city": "Montpellier",
+    "country": "France",
     "region": "Europe",
     "lat": 43.6108,
-		"lng": 3.8767
-	},
-	{
-		"title": "Italy",
-		"url": "http://dati.gov.it",
-		"city": "",
-		"country": "Italy",
+    "lng": 3.8767
+  },
+  {
+    "title": "Italy",
+    "url": "http://dati.gov.it",
+    "city": "",
+    "country": "Italy",
     "region": "Europe",
     "lat": 41.901221,
-		"lng": 12.47982
-	},
-	{
-		"title": "City of Genova",
-		"url": "http://dati.comune.genova.it",
-		"city": "Genova",
-		"country": "Italy",
+    "lng": 12.47982
+  },
+  {
+    "title": "City of Genova",
+    "url": "http://dati.comune.genova.it",
+    "city": "Genova",
+    "country": "Italy",
     "region": "Europe",
     "lat": 44.410875,
-		"lng": 8.937435
-	},
-	{
-		"title": "City of Pompeii",
-		"url": "http://open.pompeiisites.org",
-		"city": "Pompeii",
-		"country": "Italy",
+    "lng": 8.937435
+  },
+  {
+    "title": "City of Pompeii",
+    "url": "http://open.pompeiisites.org",
+    "city": "Pompeii",
+    "country": "Italy",
     "region": "Europe",
     "lat": 40.746157,
-		"lng": 14.498934
-	},
-	{
-		"title": "City of Formia",
-		"url": "http://dati.comune.formia.lt.it/",
-		"city": "Formia",
-		"country": "Italy",
+    "lng": 14.498934
+  },
+  {
+    "title": "City of Formia",
+    "url": "http://dati.comune.formia.lt.it/",
+    "city": "Formia",
+    "country": "Italy",
     "region": "Europe",
     "lat": 41.255651,
-		"lng": 13.605963
-	},
-	{
-		"title": "City of Torino",
-		"url": "http://aperto.comune.torino.it",
-		"city": "Torino",
-		"country": "Italy",
+    "lng": 13.605963
+  },
+  {
+    "title": "City of Torino",
+    "url": "http://aperto.comune.torino.it",
+    "city": "Torino",
+    "country": "Italy",
     "region": "Europe",
     "lat": 45.03999,
-		"lng": 7.68159
-	},
-	{
-		"title": "Confiscati Bene",
-		"url": "http://www.confiscatibene.it/",
-		"city": "",
-		"country": "Italy",
+    "lng": 7.68159
+  },
+  {
+    "title": "Confiscati Bene",
+    "url": "http://www.confiscatibene.it/",
+    "city": "",
+    "country": "Italy",
     "region": "Europe",
     "lat": 38.13092,
-		"lng": 13.345575
-	},
-	{
-		"title": "Donneche Contano",
-		"url": "http://donnechecontano.it/",
-		"city": "Donneche Contano",
-		"country": "Italy",
+    "lng": 13.345575
+  },
+  {
+    "title": "Donneche Contano",
+    "url": "http://donnechecontano.it/",
+    "city": "Donneche Contano",
+    "country": "Italy",
     "region": "Europe",
     "lat": 45.490646,
-		"lng": 9.18717
-	},
-	{
-		"title": "Ministry of Finance",
-		"url": "http://data.mfcr.cz",
-		"city": "",
-		"country": "Czech Republic",
+    "lng": 9.18717
+  },
+  {
+    "title": "Ministry of Finance",
+    "url": "http://data.mfcr.cz",
+    "city": "",
+    "country": "Czech Republic",
     "region": "Europe",
     "lat": 50.089153,
-		"lng": 14.407199
-	},
-	{
-		"title": "Ministry of Defense",
-		"url": "http://data.army.cz",
-		"city": "",
-		"country": "Czech Republic",
+    "lng": 14.407199
+  },
+  {
+    "title": "Ministry of Defense",
+    "url": "http://data.army.cz",
+    "city": "",
+    "country": "Czech Republic",
     "region": "Europe",
     "lat": 50.09533,
-		"lng": 14.403504
-	},
-	{
-		"title": "Ministry of Regional Development",
-		"url": "http://data.mmr.cz/",
-		"city": "",
-		"country": "Czech Republic",
+    "lng": 14.403504
+  },
+  {
+    "title": "Ministry of Regional Development",
+    "url": "http://data.mmr.cz/",
+    "city": "",
+    "country": "Czech Republic",
     "region": "Europe",
     "lat": 50.088226,
-		"lng": 14.421123
-	},
-	{
-		"title": "Czech Telecommunications Office",
-		"url": "http://data.ctu.cz/",
-		"city": "",
-		"country": "Czech Republic",
+    "lng": 14.421123
+  },
+  {
+    "title": "Czech Telecommunications Office",
+    "url": "http://data.ctu.cz/",
+    "city": "",
+    "country": "Czech Republic",
     "region": "Europe",
     "lat": 50.110656,
-		"lng": 14.499049
-	},
-	{
-		"title": "Děčín Municipality",
-		"url": "http://data.mmdecin.cz",
-		"city": "Děčín",
-		"country": "Czech Republic",
+    "lng": 14.499049
+  },
+  {
+    "title": "Děčín Municipality",
+    "url": "http://data.mmdecin.cz",
+    "city": "Děčín",
+    "country": "Czech Republic",
     "region": "Europe",
     "lat": 50.77377,
-		"lng": 14.195649
-	},
-	{
-		"title": "Opava Municipality",
-		"url": "http://kod.opava-city.cz/",
-		"city": "Opava",
-		"country": "Czech Republic",
+    "lng": 14.195649
+  },
+  {
+    "title": "Opava Municipality",
+    "url": "http://kod.opava-city.cz/",
+    "city": "Opava",
+    "country": "Czech Republic",
     "region": "Europe",
     "lat": 49.93887,
-		"lng": 17.902516
-	},
-	{
-		"title": "Decentralised Administration of Crete, Greece",
-		"url": "http://www.apdkritis.gov.gr/en",
-		"city": "",
-		"country": "Greece",
+    "lng": 17.902516
+  },
+  {
+    "title": "Decentralised Administration of Crete, Greece",
+    "url": "http://www.apdkritis.gov.gr/en",
+    "city": "",
+    "country": "Greece",
     "region": "Europe",
     "lat": 35.2401,
-		"lng": 24.8093
-	},
-	{
-		"title": "Bosnia and Herzegovina",
-		"url": "http://opendata.ba",
-		"city": "",
-		"country": "Bosnia and Herzegovina",
+    "lng": 24.8093
+  },
+  {
+    "title": "Bosnia and Herzegovina",
+    "url": "http://opendata.ba",
+    "city": "",
+    "country": "Bosnia and Herzegovina",
     "region": "Europe",
     "lat": 43.861751,
-		"lng": 18.410895
-	},
-	{
-		"title": "Belarus",
-		"url": "http://opendata.by",
-		"city": "",
-		"country": "Belarus",
+    "lng": 18.410895
+  },
+  {
+    "title": "Belarus",
+    "url": "http://opendata.by",
+    "city": "",
+    "country": "Belarus",
     "region": "Europe",
     "lat": 53.90454,
-		"lng": 27.561524
-	},
-	{
-		"title": "Russia",
-		"url": "http://data.gov.ru/",
-		"city": "",
-		"country": "Russia",
+    "lng": 27.561524
+  },
+  {
+    "title": "Russia",
+    "url": "http://data.gov.ru/",
+    "city": "",
+    "country": "Russia",
     "region": "Europe",
     "lat": 55.752023,
-		"lng": 37.617499
-	},
-	{
-		"title": "Barcelona Provicial Diputation",
-		"url": "https://dadesobertes.diba.cat/",
-		"city": "Barcelona",
-		"country": "Spain",
+    "lng": 37.617499
+  },
+  {
+    "title": "Barcelona Provicial Diputation",
+    "url": "https://dadesobertes.diba.cat/",
+    "city": "Barcelona",
+    "country": "Spain",
     "region": "Europe",
     "lat": 41.384723,
-		"lng": 2.177605
-	},
-	{
-		"title": "Castilla-La Mancha",
-		"url": "https://datosabiertos.castillalamancha.es/",
-		"city": "",
-		"country": "Spain",
+    "lng": 2.177605
+  },
+  {
+    "title": "Castilla-La Mancha",
+    "url": "https://datosabiertos.castillalamancha.es/",
+    "city": "",
+    "country": "Spain",
     "region": "Europe",
     "lat": 39.470605,
-		"lng": -2.991168
-	},
-	{
-		"title": "The Republic of Cyprus",
-		"url": "http://www.data.gov.cy/",
-		"city": "",
-		"country": "Cyprus",
+    "lng": -2.991168
+  },
+  {
+    "title": "The Republic of Cyprus",
+    "url": "http://www.data.gov.cy/",
+    "city": "",
+    "country": "Cyprus",
     "region": "Europe",
     "lat": 35.055163,
-		"lng": 33.232812
-	},
-	{
-		"title": "Saudi Arabia",
-		"url": "http://data.gov.sa",
-		"city": "",
-		"country": "Saudi Arabia",
+    "lng": 33.232812
+  },
+  {
+    "title": "Saudi Arabia",
+    "url": "http://data.gov.sa",
+    "city": "",
+    "country": "Saudi Arabia",
     "region": "Asia & Oceania",
     "lat": 24.725188,
-		"lng": 46.721259
-	},
-	{
-		"title": "City of Kyoto",
-		"url": "https://data.city.kyoto.lg.jp",
-		"city": "Kyoto",
-		"country": "Japan",
+    "lng": 46.721259
+  },
+  {
+    "title": "City of Kyoto",
+    "url": "https://data.city.kyoto.lg.jp",
+    "city": "Kyoto",
+    "country": "Japan",
     "region": "Asia & Oceania",
     "lat": 35.011874,
-		"lng": 135.768167
-	},
-	{
-		"title": "Telangana Open Data, India",
-		"url": "http://data.telangana.gov.in/",
-		"city": "",
-		"country": "India",
+    "lng": 135.768167
+  },
+  {
+    "title": "Telangana Open Data, India",
+    "url": "http://data.telangana.gov.in/",
+    "city": "",
+    "country": "India",
     "region": "Asia & Oceania",
     "lat": 17.877035,
-		"lng": 79.023485
-	},
-	{
-		"title": "American Samoa",
-		"url": "https://americansamoa-data.sprep.org/",
-		"city": "",
-		"country": "USA",
+    "lng": 79.023485
+  },
+  {
+    "title": "American Samoa",
+    "url": "https://americansamoa-data.sprep.org/",
+    "city": "",
+    "country": "USA",
     "region": "Asia & Oceania",
     "lat": -14.292067,
-		"lng": -170.746911
-	},
-	{
-		"title": "Transport for New South Wales, Australia",
-		"url": "https://opendata.transport.nsw.gov.au/r",
-		"city": "New South Wales",
-		"country": "Australia",
+    "lng": -170.746911
+  },
+  {
+    "title": "Transport for New South Wales, Australia",
+    "url": "https://opendata.transport.nsw.gov.au/r",
+    "city": "New South Wales",
+    "country": "Australia",
     "region": "Asia & Oceania",
     "lat": 31.2532,
-		"lng": 146.9211
-	},
-	{
-		"title": "Cook Islands",
-		"url": "https://cookislands-data.sprep.org/",
-		"city": "",
-		"country": "Cook Islands",
+    "lng": 146.9211
+  },
+  {
+    "title": "Cook Islands",
+    "url": "https://cookislands-data.sprep.org/",
+    "city": "",
+    "country": "Cook Islands",
     "region": "Asia & Oceania",
     "lat": -20.552677,
-		"lng": -159.808578
-	},
-	{
-		"title": "Federated States of Micronesia",
-		"url": "https://fsm-data.sprep.org",
-		"city": "",
-		"country": "Micronesia",
+    "lng": -159.808578
+  },
+  {
+    "title": "Federated States of Micronesia",
+    "url": "https://fsm-data.sprep.org",
+    "city": "",
+    "country": "Micronesia",
     "region": "Asia & Oceania",
     "lat": 7.346227,
-		"lng": 151.592821
-	},
-	{
-		"title": "Kiribati",
-		"url": "https://kiribati-data.sprep.org",
-		"city": "",
-		"country": "Republic of Kiribati",
+    "lng": 151.592821
+  },
+  {
+    "title": "Kiribati",
+    "url": "https://kiribati-data.sprep.org",
+    "city": "",
+    "country": "Republic of Kiribati",
     "region": "Asia & Oceania",
     "lat": 3.3704,
-		"lng": 168.7340
-	},
-	{
-		"title": "Republic of the Marshall Islands",
-		"url": "https://rmi-data.sprep.org/",
-		"city": "",
-		"country": "Republic of the Marshall Islands",
+    "lng": 168.734
+  },
+  {
+    "title": "Republic of the Marshall Islands",
+    "url": "https://rmi-data.sprep.org/",
+    "city": "",
+    "country": "Republic of the Marshall Islands",
     "region": "Asia & Oceania",
     "lat": 7.561679,
-		"lng": 168.873674
-	},
-	{
-		"title": "Nauru",
-		"url": "https://nauru-data.sprep.org/",
-		"city": "",
-		"country": "Nauru",
+    "lng": 168.873674
+  },
+  {
+    "title": "Nauru",
+    "url": "https://nauru-data.sprep.org/",
+    "city": "",
+    "country": "Nauru",
     "region": "Asia & Oceania",
     "lat": -0.509851,
-		"lng": 166.917702
-	},
-	{
-		"title": "New Caledonia",
-		"url": "https://newcaledonia-data.sprep.org/",
-		"city": "",
-		"country": "New Caledonia",
+    "lng": 166.917702
+  },
+  {
+    "title": "New Caledonia",
+    "url": "https://newcaledonia-data.sprep.org/",
+    "city": "",
+    "country": "New Caledonia",
     "region": "Asia & Oceania",
     "lat": -21.345697,
-		"lng": 165.508465
-	},
-	{
-		"title": "Niue",
-		"url": "https://niue-data.sprep.org/",
-		"city": "",
-		"country": "Niue",
+    "lng": 165.508465
+  },
+  {
+    "title": "Niue",
+    "url": "https://niue-data.sprep.org/",
+    "city": "",
+    "country": "Niue",
     "region": "Asia & Oceania",
     "lat": -19.073552,
-		"lng": -169.856027
-	},
-	{
-		"title": "Palau",
-		"url": "https://palau-data.sprep.org/",
-		"city": "",
-		"country": "Palau",
+    "lng": -169.856027
+  },
+  {
+    "title": "Palau",
+    "url": "https://palau-data.sprep.org/",
+    "city": "",
+    "country": "Palau",
     "region": "Asia & Oceania",
     "lat": 7.50886,
-		"lng": 134.546417
-	},
-	{
-		"title": "Papua New Guinea",
-		"url": "https://png-data.sprep.org/",
-		"city": "",
-		"country": "Papua New Guinea",
+    "lng": 134.546417
+  },
+  {
+    "title": "Papua New Guinea",
+    "url": "https://png-data.sprep.org/",
+    "city": "",
+    "country": "Papua New Guinea",
     "region": "Asia & Oceania",
     "lat": -6.448112,
-		"lng": 144.077435
-	},
-	{
-		"title": "Samoa",
-		"url": "https://samoa-data.sprep.org/",
-		"city": "",
-		"country": "Samoa",
+    "lng": 144.077435
+  },
+  {
+    "title": "Samoa",
+    "url": "https://samoa-data.sprep.org/",
+    "city": "",
+    "country": "Samoa",
     "region": "Asia & Oceania",
     "lat": -13.632915,
-		"lng": -172.447668
-	},
-	{
-		"title": "Solomon Islands",
-		"url": "https://solomonislands-data.sprep.org/",
-		"city": "",
-		"country": "Solomon Islands",
+    "lng": -172.447668
+  },
+  {
+    "title": "Solomon Islands",
+    "url": "https://solomonislands-data.sprep.org/",
+    "city": "",
+    "country": "Solomon Islands",
     "region": "Asia & Oceania",
     "lat": -9.545675,
-		"lng": 160.196111
-	},
-	{
-		"title": "Tonga",
-		"url": "https://tonga-data.sprep.org/",
-		"city": "",
-		"country": "Tonga",
+    "lng": 160.196111
+  },
+  {
+    "title": "Tonga",
+    "url": "https://tonga-data.sprep.org/",
+    "city": "",
+    "country": "Tonga",
     "region": "Asia & Oceania",
     "lat": -21.189973,
-		"lng": -175.190536
-	},
-	{
-		"title": "Tuvalu",
-		"url": "https://tuvalu-data.sprep.org/",
-		"city": "",
-		"country": "Tuvalu",
+    "lng": -175.190536
+  },
+  {
+    "title": "Tuvalu",
+    "url": "https://tuvalu-data.sprep.org/",
+    "city": "",
+    "country": "Tuvalu",
     "region": "Asia & Oceania",
     "lat": -6.846153,
-		"lng": 177.401917
-	},
-	{
-		"title": "Vanuatu",
-		"url": "https://vanuatu-data.sprep.org/",
-		"city": "",
-		"country": "Vanuatu",
+    "lng": 177.401917
+  },
+  {
+    "title": "Vanuatu",
+    "url": "https://vanuatu-data.sprep.org/",
+    "city": "",
+    "country": "Vanuatu",
     "region": "Asia & Oceania",
     "lat": -15.243179,
-		"lng": 166.860485
-	},
-	{
-		"title": "Pacific Environment Data Portal",
-		"url": "https://pacific-data.sprep.org/",
-		"city": "",
-		"country": "Pacific Environment Data Portal",
+    "lng": 166.860485
+  },
+  {
+    "title": "Pacific Environment Data Portal",
+    "url": "https://pacific-data.sprep.org/",
+    "city": "",
+    "country": "Pacific Environment Data Portal",
     "region": "Asia & Oceania",
     "lat": 1,
-		"lng": 1
-	},
-	{
-		"title": "Bangladesh Open Data",
-		"url": "http://data.gov.bd/",
-		"city": "",
-		"country": "Bangladesh",
+    "lng": 1
+  },
+  {
+    "title": "Bangladesh Open Data",
+    "url": "http://data.gov.bd/",
+    "city": "",
+    "country": "Bangladesh",
     "region": "Asia & Oceania",
     "lat": 90.3563,
-		"lng": 23.685
-	},
-	{
-		"title": "Jamaica",
-		"url": "http://data.gov.jm",
-		"city": "",
-		"country": "Jamaica",
+    "lng": 23.685
+  },
+  {
+    "title": "Jamaica",
+    "url": "http://data.gov.jm",
+    "city": "",
+    "country": "Jamaica",
     "region": "Americas",
     "lat": 18.004526,
-		"lng": -76.792488
-	},
-	{
-		"title": "Saint Lucia",
-		"url": "http://data.govt.lc/",
-		"city": "",
-		"country": "Saint Lucia",
+    "lng": -76.792488
+  },
+  {
+    "title": "Saint Lucia",
+    "url": "http://data.govt.lc/",
+    "city": "",
+    "country": "Saint Lucia",
     "region": "Americas",
     "lat": 13.846153,
-		"lng": -60.997305
-	},
-	{
-		"title": "El Salvador",
-		"url": "http://datoselsalvador.org",
-		"city": "",
-		"country": "El Salvador",
+    "lng": -60.997305
+  },
+  {
+    "title": "El Salvador",
+    "url": "http://datoselsalvador.org",
+    "city": "",
+    "country": "El Salvador",
     "region": "Americas",
     "lat": 13.692643,
-		"lng": -89.22036
-	},
-	{
-		"title": "City of Rosario",
-		"url": "http://datos.rosario.gob.ar",
-		"city": "Rosario",
-		"country": "Argentina",
+    "lng": -89.22036
+  },
+  {
+    "title": "City of Rosario",
+    "url": "http://datos.rosario.gob.ar",
+    "city": "Rosario",
+    "country": "Argentina",
     "region": "Americas",
     "lat": -32.944505,
-		"lng": -60.646319
-	},
-	{
-		"title": "Bogotá Secretariat of Culture, Recreation, and Sport",
-		"url": "http://sispru.scrd.gov.co/siscred/dataset",
-		"city": "Bogotá",
-		"country": "Colombia",
+    "lng": -60.646319
+  },
+  {
+    "title": "Bogotá Secretariat of Culture, Recreation, and Sport",
+    "url": "http://sispru.scrd.gov.co/siscred/dataset",
+    "city": "Bogotá",
+    "country": "Colombia",
     "region": "Americas",
     "lat": 4.595954,
-		"lng": -74.076746
-	},
-	{
-		"title": "City of Narino",
-		"url": "http://datos.narino.gov.co/",
-		"city": "Narino",
-		"country": "Colombia",
+    "lng": -74.076746
+  },
+  {
+    "title": "City of Narino",
+    "url": "http://datos.narino.gov.co/",
+    "city": "Narino",
+    "country": "Colombia",
     "region": "Americas",
     "lat": 1.297813,
-		"lng": -77.486038
-	},
-	{
-		"title": "IMSS",
-		"url": "http://datos.imss.gob.mx/",
-		"city": "",
-		"country": "Mexico",
+    "lng": -77.486038
+  },
+  {
+    "title": "IMSS",
+    "url": "http://datos.imss.gob.mx/",
+    "city": "",
+    "country": "Mexico",
     "region": "Americas",
     "lat": 19.42347,
-		"lng": -99.172788
-	},
-	{
-		"title": "Ministry of Education, Peru",
-		"url": "http://datos.minedu.gob.pe/",
-		"city": "",
-		"country": "Peru",
+    "lng": -99.172788
+  },
+  {
+    "title": "Ministry of Education, Peru",
+    "url": "http://datos.minedu.gob.pe/",
+    "city": "",
+    "country": "Peru",
     "region": "Americas",
     "lat": -12.085152,
-		"lng": -77.000901
-	},
-	{
-		"title": "Ministry of Health, Peru",
-		"url": "http://datos.minsa.gob.pe/",
-		"city": "",
-		"country": "Peru",
+    "lng": -77.000901
+  },
+  {
+    "title": "Ministry of Health, Peru",
+    "url": "http://datos.minsa.gob.pe/",
+    "city": "",
+    "country": "Peru",
     "region": "Americas",
     "lat": -12.072693,
-		"lng": -77.041584
-	},
-	{
-		"title": "São Paulo State's Department of Education, Brazil",
-		"url": "https://dados.educacao.sp.gov.br/",
-		"city": "São Paulo",
-		"country": "Brazil",
+    "lng": -77.041584
+  },
+  {
+    "title": "São Paulo State's Department of Education, Brazil",
+    "url": "https://dados.educacao.sp.gov.br/",
+    "city": "São Paulo",
+    "country": "Brazil",
     "region": "Americas",
     "lat": -23.547522,
-		"lng": -46.614558
-	},
-	{
-		"title": "City of La Paz",
-		"url": "https://datosabiertos.cedla.org/",
-		"city": "La Paz",
-		"country": "Bolivia",
+    "lng": -46.614558
+  },
+  {
+    "title": "City of La Paz",
+    "url": "https://datosabiertos.cedla.org/",
+    "city": "La Paz",
+    "country": "Bolivia",
     "region": "Americas",
     "lat": 23.5505,
-		"lng": 46.6333
-	},
-	{
-		"title": "Ghana",
-		"url": "http://data.gov.gh",
-		"city": "",
-		"country": "Ghana",
+    "lng": 46.6333
+  },
+  {
+    "title": "Ghana",
+    "url": "http://data.gov.gh",
+    "city": "",
+    "country": "Ghana",
     "region": "Africa",
     "lat": 5.603645,
-		"lng": -0.187564
-	},
-	{
-		"title": "Edo, Nigeria",
-		"url": "http://data.edostate.gov.ng/",
-		"city": "",
-		"country": "Nigeria",
+    "lng": -0.187564
+  },
+  {
+    "title": "Edo, Nigeria",
+    "url": "http://data.edostate.gov.ng/",
+    "city": "",
+    "country": "Nigeria",
     "region": "Africa",
     "lat": 6.34535,
-		"lng": 5.614416
-	}
+    "lng": 5.614416
+  },
+  {
+    "title": "Open Payments Data",
+    "url": "http://openpaymentsdata.cms.gov",
+    "city": "Baltimore",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 39.3179535,
+    "lng": -76.7656495
+  },
+  {
+    "title": "Medicaid and CHIP Data",
+    "url": "http://data.medicaid.gov",
+    "city": "Baltimore",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 39.3179535,
+    "lng": -76.7656495
+  },
+  {
+    "title": "Medicaid State Data Information System ",
+    "url": "http://sdis.medicaid.gov",
+    "city": "Baltimore",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 39.3179535,
+    "lng": -76.7656495
+  },
+  {
+    "title": "Healthcare.gov Data",
+    "url": "http://data.healthcare.gov",
+    "city": "Baltimore",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 39.3179535,
+    "lng": -76.7656495
+  },
+  {
+    "title": "Medicare Physician Fee Schedule Data",
+    "url": "https://www.cms.gov/medicare/physician-fee-schedule/search/overview",
+    "city": "Baltimore",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 39.3179535,
+    "lng": -76.7656495
+  },
+  {
+    "title": "Medicare Parts C and D Qualified Independent Contractor’s Appeals Data",
+    "url": "https://www.cms.gov/qic-decision-search",
+    "city": "Baltimore",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 39.3179535,
+    "lng": -76.7656495
+  },
+  {
+    "title": "Medicare Provider Data Catalog",
+    "url": "https://data.cms.gov/provider-data/",
+    "city": "Baltimore",
+    "country": "USA",
+    "region": "United States of America",
+    "lat": 39.3179535,
+    "lng": -76.7656495
+  }
 ]
