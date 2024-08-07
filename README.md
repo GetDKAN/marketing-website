@@ -1,53 +1,15 @@
-
 # DKAN Marketing Website
 
 The official website for DKAN: [getdkan.org](http://getdkan.com)
 
 
-## Commands
 
-```sh
-# working locally
-npm run dev
+Links to add to top in same row as contact us. Make them stacked on mobile
 
-# generate build (Add --prefix-paths if you are using path prefix!)
-npm run build
+Github  https://github.com/GetDKAN
 
-# format code
-npm run format
+Roadmap: https://github.com/orgs/GetDKAN/projects/7/views/5
 
-# lint code
-npm run lint
+Docs:   https://dkan.readthedocs.io/en/latest/
 
-# Generate generate post preview images (npm run dev need to run before)
-npm run generatePostPreviewImages
-```
-
-## Configure
-
-```bash
- ├── data
-     ├── siteConfig.js
-     ├── sites.json
-     ├── team.json
-```
-
-## Content
-
-```bash
-├── content
-    ├── images
-    ├── pages
-```
-
-## Images
-Upload image files to `/static`
-Then add them with html `<img src={'/image.png'} alt="Logo" />`
-or markdown `[![logo](./image.png)]`
-
-## Markdown
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://api.netlify.com/)
+Contact button that scroll to contact form at bottom of page stays
