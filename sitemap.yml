@@ -1,0 +1,12 @@
+# sitemap.yml
+base_url: "https://getdkan.org"
+exclude:
+  - "404/"
+  - "LICENSE.txt"
+  - ".git"
+  - ".github"
+organization_name: "GetDKAN"
+output_file: "sitemap.xml"
+xsl_file: "sitemap.xsl"
+default_changefreq: "weekly"
+default_priority: 0.5

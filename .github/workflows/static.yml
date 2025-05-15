@@ -28,22 +28,50 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/civicactions/pyction:latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Sync Python dependencies
+        run: uv sync
+
+      - name: Generate sitemap
+        run: uv run python .scripts/generate_sitemap.py
+
+      - name: Upload site artifact (includes sitemap.xml + sitemap.xsl)
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: |
+            ./
+            !.git/
+            !node_modules/
+
   deploy:
+    needs: build
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Download site artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: .
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
           path: '.'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
